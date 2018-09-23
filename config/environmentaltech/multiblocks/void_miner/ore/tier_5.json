@@ -1,0 +1,241 @@
+{
+ "outputs": [
+// DIM 0
+    {
+      "target": "black",
+      "weight": 1000,
+      "id": "minecraft:coal_ore"
+    },
+	{
+      "target": "white",
+      "weight": 750,
+      "id": "minecraft:iron_ore"
+    },
+	{
+      "target": "yellow",
+      "weight": 311,
+      "id": "minecraft:gold_ore"
+    },
+	{
+      "target": "orange",
+      "weight": 584,
+      "id": "thermalfoundation:ore"
+    },
+	{
+      "target": "white",
+      "weight": 422,
+      "id": "techreborn:ore:4"
+    },
+	{
+      "target": "purple",
+      "weight": 190,
+      "id": "contenttweaker:titaniumore"
+    },
+	{
+      "target": "red",
+      "weight": 515,
+      "id": "minecraft:redstone_ore"
+    },
+	{
+      "target": "red",
+      "weight": 200,
+      "id": "techreborn:ore:2"
+    },
+	{
+      "target": "blue",
+      "weight": 200,
+      "id": "techreborn:ore:3"
+    },
+	{
+      "target": "light_blue",
+      "weight": 187,
+      "id": "appliedenergistics2:quartz_ore"
+    },
+	{
+      "target": "light_blue",
+      "weight": 109,
+      "id": "appliedenergistics2:charged_quartz_ore"
+    },
+	{
+      "target": "light_blue",
+      "weight": 200,
+      "id": "forestry:resources"
+    },
+	{
+      "target": "gray",
+      "weight": 602,
+      "id": "thermalfoundation:ore"
+    },
+	{
+      "target": "gray",
+      "weight": 232,
+      "id": "thermalfoundation:ore:5"
+    },
+	{
+      "target": "light_blue",
+      "weight": 150,
+      "id": "thermalfoundation:ore:6"
+    },
+	{
+      "target": "cyan",
+      "weight": 218,
+      "id": "minecraft:diamond_ore"
+    },
+	{
+      "target": "light_gray",
+      "weight": 440,
+      "id": "techreborn:ore"
+    },
+	{
+      "target": "silver",
+      "weight": 381,
+      "id": "thermalfoundation:ore:2"
+    },
+	{
+      "target": "purple",
+      "weight": 500,
+      "id": "thermalfoundation:ore:3"
+    },
+	{
+      "target": "blue",
+      "weight": 343,
+      "id": "minecraft:lapis_ore"
+    },
+	{
+      "target": "lime",
+      "weight": 156,
+      "id": "minecraft:emerald_ore"
+    },
+	{
+      "target": "white",
+      "weight": 157,
+      "id": "thermalfoundation:ore:7"
+    },
+// DIM -1
+	{
+      "target": "yellow",
+      "weight": 234,
+      "id": "minecraft:glowstone"
+    },
+	{
+      "target": "yellow",
+      "weight": 222,
+      "id": "techreborn:ore:5"
+    },
+	{
+      "target": "pink",
+      "weight": 186,
+      "id": "techreborn:ore:7"
+    },
+	{
+      "target": "white",
+      "weight": 560,
+      "id": "minecraft:quartz_ore"
+    },
+	{
+      "target": "black",
+      "weight": 290,
+      "id": "actuallyadditions:block_misc:3"
+    },
+	{
+      "target": "brown",
+      "weight": 190,
+      "id": "techreborn:ore:6"
+    },
+	{
+      "target": "yellow",
+      "weight": 145,
+      "id": "thermalfoundation:ore_fluid:3"
+    },
+	{
+      "target": "red",
+      "weight": 137,
+      "id": "thermalfoundation:ore_fluid:2"
+    },
+// DIM 1
+	{
+      "target": "green",
+      "weight": 118,
+      "id": "thermalfoundation:ore_fluid:4"
+    },
+    {
+      "target": "green",
+      "weight": 200,
+      "id": "techreborn:ore:10"
+    },
+	{
+      "target": "blue",
+      "weight": 186,
+      "id": "techreborn:ore:11"
+    },
+	{
+      "target": "black",
+      "weight": 192,
+      "id": "techreborn:ore:8"
+    },
+	{
+      "target": "light_blue",
+      "weight": 203,
+      "id": "mekanism:oreblock"
+    },
+// DIM -28
+    {
+      "target": "blue",
+      "weight": 156,
+      "id": "galacticraftcore:basic_block_moon:6"
+    },
+// DIM -29
+    {
+      "target": "black",
+      "weight": 190,
+      "id": "galacticraftplanets:mars:2"
+    },
+// DIM -31
+    {
+      "target": "green",
+      "weight": 140,
+      "id": "immersiveengineering:ore:5"
+    },
+    {
+      "target": "white",
+      "weight": 211,
+      "id": "thermalfoundation:ore:4"
+    },
+// Crystal
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "environmentaltech:litherite_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 150,
+      "id": "environmentaltech:erodium_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 120,
+      "id": "environmentaltech:kyronite_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 90,
+      "id": "environmentaltech:pladium_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 60,
+      "id": "environmentaltech:ionite_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 30,
+      "id": "environmentaltech:aethium_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 4,
+      "id": "environmentaltech:lonsdaleite_crystal"
+    }
+ ]
+}

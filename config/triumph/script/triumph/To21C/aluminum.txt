@@ -1,0 +1,8 @@
+setIcon(<thermalfoundation:material:132>)
+setTitle("Aluminum")
+setDescription("Your first aluminum! It reveals you lots of new stuff!")
+addParent("triumph:To21C/blastTR")
+setPos(-835,-309)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotAluminum>)
+setFrameType("GOAL")

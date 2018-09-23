@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "contenttweaker:blocks/fusioncoil1",
+      "down": "contenttweaker:blocks/fusioncoil2",
+      "up": "contenttweaker:blocks/fusioncoil2",
+      "north": "contenttweaker:blocks/fusioncoil1",
+      "south": "contenttweaker:blocks/fusioncoil1",
+      "west": "contenttweaker:blocks/fusioncoil1",
+      "east": "contenttweaker:blocks/fusioncoil1"
+    },
+    "model": "cube_all",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

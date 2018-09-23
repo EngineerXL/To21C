@@ -1,0 +1,8 @@
+setIcon(<galacticraftcore:rocket_t1>)
+setTitle("Tier 1 Rocket")
+setDescription("Per aspera da astra")
+addParent("triumph:To21C/tier2")
+setPos(-835,-281)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<galacticraftcore:rocket_t1>)
+setFrameType("GOAL")

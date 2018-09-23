@@ -1,0 +1,246 @@
+{
+	"populate": {
+	
+		"cheese_moon": {
+	    "enabled" = true,
+        "distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "galacticraftcore:basic_block_moon",
+						"metadata": 2
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftcore:basic_block_moon",
+						"metadata": 4
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 160,
+        "min-height": 5,
+		"max-height": 20,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28
+				]
+		    }
+		},
+		
+		"copper_low_moon": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+			"block": "galacticraftcore:basic_block_moon",
+            "material": [
+					{
+						"name": "galacticraftcore:basic_block_moon",
+						"metadata": 4,
+						"weight": 65
+					},
+					{
+						"name": "contenttweaker:mooniron",
+						"metadata": 4,
+						"weight": 35
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 160,
+        "min-height": 5,
+		"max-height": 20,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28
+				]
+		    }
+		},
+		
+		"copper_high_moon": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+			"block": "galacticraftcore:basic_block_moon",
+            "material": [
+					{
+						"name": "galacticraftcore:basic_block_moon",
+						"metadata": 4
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 182,
+        "min-height": 40,
+		"max-height": 60,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28
+				]
+		    }
+		},
+
+		"bauxite_moon": {
+	    "enabled" = true,
+        "distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "contenttweaker:moonbauxite",
+						"weight": 85
+					},
+					{
+						"name": "contenttweaker:moonilmenite",
+						"weight": 15
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftcore:basic_block_moon",
+						"metadata": 4
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 213,
+        "min-height": 40,
+		"max-height": 60,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28
+				]
+		    }
+		},	
+		
+		"tin_moon": {
+	    "enabled" = true,
+        "distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "galacticraftcore:basic_block_moon",
+						"metadata": 1
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftcore:basic_block_moon",
+						"metadata": 4
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 256,
+        "min-height": 40,
+		"max-height": 60,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28
+				]
+		    }
+		},		
+		
+		"sapphire_moon": {
+	    "enabled" = true,
+        "distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "galacticraftcore:basic_block_moon",
+						"metadata": 6
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftcore:basic_block_moon",
+						"metadata": 4
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 426,
+        "min-height": 20,
+		"max-height": 40,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28
+				]
+		    }
+		},
+		
+		"platinum_moon": {
+	    "enabled" = true,
+        "distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "contenttweaker:moonplatinum",
+						"weight": 65
+					},
+					{
+						"name": "contenttweaker:mooniridium",
+						"weight": 35
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftcore:basic_block_moon",
+						"metadata": 4
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 1280,
+        "min-height": 20,
+		"max-height": 40,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28
+				]
+		    }
+		}
+	}
+}

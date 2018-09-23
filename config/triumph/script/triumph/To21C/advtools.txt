@@ -1,0 +1,8 @@
+setIcon(<calculator:reinforcedpickaxe>)
+setTitle("Advanced tools")
+setDescription("Better then stone tools")
+addParent("triumph:To21C/stone")
+setPos(-868,-420)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<calculator:reinforcedpickaxe>)
+setFrameType("GOAL")

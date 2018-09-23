@@ -1,0 +1,7 @@
+setIcon(<extrautils2:ingredients>)
+setTitle("Tech start")
+setDescription("Now you can start tech-tree with it")
+addParent("triumph:To21C/iron")
+setPos(-868,-363)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:ingredients>)

@@ -1,0 +1,8 @@
+setIcon(<environmentaltech:structure_frame_4>)
+setTitle("Enviromental tier 4")
+setDescription("Mooooore expensive")
+addParent("triumph:To21C/env3")
+setPos(-865,-146)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<environmentaltech:structure_frame_4>)
+setFrameType("CHALLENGE")

@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:stone_device, meta:1>)
+setTitle("Blast Furnace")
+setDescription("Easy way to get your first steel")
+addParent("triumph:To21C/hammer")
+setPos(-804,-390)
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:BlastFurnace")
+setFrameType("GOAL")

@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:naquadahdust>)
+setTitle("Naquadah")
+setDescription("Have you enought energy?")
+addParent("triumph:To21C/tiberium")
+setPos(-423,-312)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:naquadahdust>)
+setFrameType("GOAL")

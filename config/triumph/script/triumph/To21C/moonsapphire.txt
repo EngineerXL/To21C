@@ -1,0 +1,8 @@
+setIcon(<galacticraftcore:item_basic_moon:2>)
+setTitle("Moon Sapphire")
+setDescription("An analog for emerald")
+addParent("triumph:To21C/rocket1")
+setPos(-865,-253)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<galacticraftcore:item_basic_moon:2>)
+setFrameType("GOAL")

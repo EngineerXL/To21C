@@ -1,0 +1,255 @@
+{
+	"populate": {
+		
+		"copper_low_mars": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "galacticraftplanets:mars",
+						"weight": 65
+					},
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 3,
+						"weight": 35
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 9
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 160,
+        "min-height": 10,
+		"max-height": 30,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+		    }
+		},
+		
+		"bauxite_mars": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "contenttweaker:marsbauxite",
+						"weight": 85
+					},
+					{
+						"name": "contenttweaker:marsilmenite",
+						"weight": 15
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 9
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 160,
+        "min-height": 70,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+		    }
+		},
+		
+		"copper_high_mars": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+			"block": "galacticraftplanets:mars",
+            "material": [
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 9
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 182,
+        "min-height": 70,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+		    }
+		},
+		
+		"tin_mars": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 1
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 9
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 256,
+        "min-height": 70,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+		    }
+		},
+		
+		"nickel_mars": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "contenttweaker:marsnickel",
+						"weight": 65
+					},
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 3,
+						"weight": 35
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 9
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 320,
+        "min-height": 10,
+		"max-height": 40,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+		    }
+		},
+		
+		"desh_mars": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 2
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 9
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 426,
+        "min-height": 5,
+		"max-height": 40,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+		    }
+		},
+		
+		"osmium_mars": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+				        "name": "contenttweaker:marsosmium",
+				        "weight": 65
+				    },
+					{
+						"name": "contenttweaker:marsiridium",
+						"weight": 35
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:mars",
+						"metadata": 9
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 640,
+        "min-height": 40,
+		"max-height": 50,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+		    }
+		}
+	}
+}	

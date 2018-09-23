@@ -1,0 +1,8 @@
+setIcon(<appliedenergistics2:inscriber>)
+setTitle("Inscriber")
+setDescription("Not so hard")
+addParent("triumph:To21C/meteoric")
+setPos(-766,-253)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:inscriber>)
+setFrameType("GOAL")

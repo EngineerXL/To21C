@@ -1,0 +1,8 @@
+setIcon(<thermalfoundation:material:72>)
+setTitle("Mana Infused metal")
+setDescription("Beyond the edge of reality")
+addParent("triumph:To21C/fusionmk1")
+setPos(-532,-312)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<thermalfoundation:material:72>)
+setFrameType("GOAL")

@@ -1,0 +1,8 @@
+setIcon(<extendedcrafting:material:13>)
+setTitle("Ultimate Catalyst")
+setDescription("The end near...")
+addParent("triumph:To21C/naquadahstar")
+setPos(-322,-312)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:material:13>)
+setFrameType("CHALLENGE")

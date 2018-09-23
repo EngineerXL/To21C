@@ -1,0 +1,8 @@
+setIcon(<thermalfoundation:upgrade:256>)
+setTitle("Creative")
+setDescription("The End. End? End.")
+addParent("triumph:To21C/multiplicator")
+setPos(-272,-145)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<thermalfoundation:upgrade:256>)
+setFrameType("CHALLENGE")

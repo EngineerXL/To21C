@@ -1,0 +1,7 @@
+setIcon(<appliedenergistics2:controller>)
+setTitle("ME System")
+setDescription("Before making controller be sure to make growth chamber and advanced inscriber")
+addParent("triumph:To21C/inscriber")
+setPos(-730,-202)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:controller>)

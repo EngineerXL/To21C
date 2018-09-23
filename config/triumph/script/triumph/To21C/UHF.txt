@@ -1,0 +1,8 @@
+setIcon(<environmentaltech:diode>)
+setTitle("UHF Laser")
+setDescription("Infinite resources")
+addParent("triumph:To21C/desh")
+setPos(-695,-227)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<environmentaltech:diode>)
+setFrameType("CHALLENGE")

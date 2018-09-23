@@ -1,0 +1,8 @@
+setIcon(<enderio:item_material:1>)
+setTitle("Tier 3 Machines")
+setDescription("Best choice")
+addParent("triumph:To21C/titanium")
+setPos(-730,-281)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<enderio:item_material:1>)
+setFrameType("GOAL")

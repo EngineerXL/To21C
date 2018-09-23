@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:metal_device1:7>)
+setTitle("Oil")
+setDescription("Richy")
+addParent("triumph:To21C/metalpress")
+setPos(-766,-420)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device1:7>)
+setFrameType("GOAL")

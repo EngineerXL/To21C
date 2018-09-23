@@ -1,0 +1,7 @@
+setIcon(<minecraft:cobblestone>)
+setTitle("Stone Age")
+setDescription("As you have noticed, there aren't Vanilla stone")
+addParent("triumph:To21C/table")
+setPos(-930,-390)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<ore:cobblestone>)

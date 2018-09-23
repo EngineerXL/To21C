@@ -1,0 +1,8 @@
+setIcon(<gendustry:mutatron>)
+setTitle("Mutatron")
+setDescription("Easy species evolution")
+addParent("triumph:To21C/powermodule")
+setPos(-633,-337)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<gendustry:mutatron>)
+setFrameType("GOAL")

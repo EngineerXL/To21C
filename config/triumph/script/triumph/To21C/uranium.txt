@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:metal:5>)
+setTitle("Uranium")
+setDescription("Radioactive! [No]")
+addParent("triumph:To21C/rocket3")
+setPos(-496,-255)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal:5>)
+setFrameType("GOAL")

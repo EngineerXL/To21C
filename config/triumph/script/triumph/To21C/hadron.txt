@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:fusioncoil>)
+setTitle("Hadron Collider")
+setDescription("Oh, my")
+addParent("triumph:To21C/fusionmk2")
+setPos(-496,-312)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:fusioncoil>)
+setFrameType("CHALLENGE")

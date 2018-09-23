@@ -1,0 +1,7 @@
+setIcon(<environmentaltech:structure_frame_1>)
+setTitle("Enviromental tier 1")
+setDescription("Insane multiblock generators wair for you")
+addParent("triumph:To21C/moonsapphire")
+setPos(-865,-227)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<environmentaltech:structure_frame_1>)

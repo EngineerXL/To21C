@@ -1,0 +1,8 @@
+setIcon(<galacticraftplanets:item_basic_mars:2>)
+setTitle("Desh")
+setDescription("Unkown metal")
+addParent("triumph:To21C/rocket2")
+setPos(-730,-227)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<galacticraftplanets:item_basic_mars:2>)
+setFrameType("GOAL")

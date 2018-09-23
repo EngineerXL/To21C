@@ -1,0 +1,8 @@
+setIcon(<techreborn:industrial_blast_furnace>)
+setTitle("Getting hotter!")
+setDescription("Allows you to smelt high temperature metals")
+addParent("triumph:To21C/tier1")
+setPos(-835,-337)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:industrial_blast_furnace>)
+setFrameType("GOAL")

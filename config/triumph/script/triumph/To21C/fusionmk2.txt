@@ -1,0 +1,8 @@
+setIcon(<mekanismgenerators:reactor>)
+setTitle("Fusion reactor Mk2")
+setDescription("Produces lots of energy for...")
+addParent("triumph:To21C/fusionmk1")
+setPos(-532,-281)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<mekanismgenerators:reactor>)
+setFrameType("GOAL")

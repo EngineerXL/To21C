@@ -1,0 +1,8 @@
+setIcon(<modularmachinery:itemmodularium>)
+setTitle("Stainless steel")
+setDescription("Have you seen Hadron Collider?")
+addParent("triumph:To21C/magmacrucible")
+setPos(-730,-309)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:itemmodularium>)
+setFrameType("GOAL")

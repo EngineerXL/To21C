@@ -1,0 +1,8 @@
+setIcon(<mekanism:ingot:1>)
+setTitle("Osmium")
+setDescription("Hot enought. You've finally got Mekanism")
+addParent("triumph:To21C/alloysmelter")
+setPos(-625,-281)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:ingot:1>)
+setFrameType("GOAL")

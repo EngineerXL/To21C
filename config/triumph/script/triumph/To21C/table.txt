@@ -1,0 +1,7 @@
+setIcon(<minecraft:crafting_table>)
+setTitle("Crafting Table")
+setDescription("Install your workspace now!")
+addParent("triumph:To21C/wood")
+setPos(-930,-420)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<ore:workbench>)

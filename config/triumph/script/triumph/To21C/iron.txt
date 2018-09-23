@@ -1,0 +1,7 @@
+setIcon(<minecraft:iron_ingot>)
+setTitle("So good enought")
+setDescription("Simply smelt iron ore into ingot")
+addParent("triumph:To21C/advtools")
+setPos(-868,-390)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_ingot>)

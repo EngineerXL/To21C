@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:nanoprocessor>)
+setTitle("Nanoprocessor")
+setDescription("Mintel is so expensive")
+addParent("triumph:To21C/mithril")
+setPos(-496,-214)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:nanoprocessor>)

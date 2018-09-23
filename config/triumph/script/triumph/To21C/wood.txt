@@ -1,0 +1,8 @@
+setIcon(<minecraft:log>)
+setTitle("Need wood?")
+setDescription("Get wood!")
+addParent("triumph:To21C/root")
+setPos(-968,-420)
+hideLines()
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<ore:logWood>)

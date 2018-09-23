@@ -1,0 +1,8 @@
+setIcon(<galacticraftplanets:rocket_t2>)
+setTitle("Tier 2 Rocket")
+setDescription("How's that for you, Elon Musk?")
+addParent("triumph:To21C/meteoric")
+setPos(-730,-253)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<galacticraftplanets:rocket_t2>)
+setFrameType("GOAL")

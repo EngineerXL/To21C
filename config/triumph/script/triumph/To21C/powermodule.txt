@@ -1,0 +1,8 @@
+setIcon(<gendustry:power_module>)
+setTitle("Power module")
+setDescription("Gendustry is Genetics 2.0")
+addParent("triumph:To21C/incubator")
+setPos(-664,-337)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<gendustry:power_module>)
+setFrameType("GOAL")

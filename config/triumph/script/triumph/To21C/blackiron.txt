@@ -1,0 +1,8 @@
+setIcon(<extendedcrafting:material>)
+setTitle("Black iron")
+setDescription("You just need manual mill and resonator")
+addParent("triumph:To21C/crystal")
+setPos(-835,-363)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:material>)
+setFrameType("GOAL")

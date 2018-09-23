@@ -1,0 +1,8 @@
+setIcon(<modularmachinery:blockcontroller>)
+setTitle("Modular Machinery")
+setDescription("Advanced Assembler will be your first machine")
+addParent("triumph:To21C/slsteel")
+setPos(-694,-309)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:blockcontroller>)
+setFrameType("GOAL")

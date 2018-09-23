@@ -1,0 +1,303 @@
+{
+  "outputs": [
+    {
+      "target": "red",
+      "weight": 9,
+      "id": "undergroundbiomes:igneous_stone"
+    },
+    {
+      "target": "black",
+      "weight": 9,
+      "id": "undergroundbiomes:igneous_stone:1"
+    },
+    {
+      "target": "brown",
+      "weight": 9,
+      "id": "undergroundbiomes:igneous_stone:2"
+    },
+    {
+      "target": "silver",
+      "weight": 9,
+      "id": "undergroundbiomes:igneous_stone:3"
+    },
+    {
+      "target": "purple",
+      "weight": 9,
+      "id": "undergroundbiomes:igneous_stone:4"
+    },
+    {
+      "target": "black",
+      "weight": 9,
+      "id": "undergroundbiomes:igneous_stone:5"
+    },
+    {
+      "target": "orange",
+      "weight": 9,
+      "id": "undergroundbiomes:igneous_stone:6"
+    },
+    {
+      "target": "silver",
+      "weight": 9,
+      "id": "undergroundbiomes:igneous_stone:7"
+    },
+    {
+      "target": "gray",
+      "weight": 9,
+      "id": "undergroundbiomes:metamorphic_stone"
+    },
+    {
+      "target": "brown",
+      "weight": 9,
+      "id": "undergroundbiomes:metamorphic_stone:1"
+    },
+    {
+      "target": "white",
+      "weight": 9,
+      "id": "undergroundbiomes:metamorphic_stone:2"
+    },
+    {
+      "target": "orange",
+      "weight": 9,
+      "id": "undergroundbiomes:metamorphic_stone:3"
+    },
+    {
+      "target": "blue",
+      "weight": 9,
+      "id": "undergroundbiomes:metamorphic_stone:4"
+    },
+    {
+      "target": "green",
+      "weight": 9,
+      "id": "undergroundbiomes:metamorphic_stone:5"
+    },
+    {
+      "target": "white",
+      "weight": 9,
+      "id": "undergroundbiomes:metamorphic_stone:6"
+    },
+    {
+      "target": "gray",
+      "weight": 9,
+      "id": "undergroundbiomes:metamorphic_stone:7"
+    },
+    {
+      "target": "yellow",
+      "weight": 9,
+      "id": "undergroundbiomes:sedimentary_stone"
+    },
+    {
+      "target": "white",
+      "weight": 9,
+      "id": "undergroundbiomes:sedimentary_stone:1"
+    },
+    {
+      "target": "gray",
+      "weight": 9,
+      "id": "undergroundbiomes:sedimentary_stone:2"
+    },
+    {
+      "target": "orange",
+      "weight": 9,
+      "id": "undergroundbiomes:sedimentary_stone:3"
+    },
+    {
+      "target": "brown",
+      "weight": 9,
+      "id": "undergroundbiomes:sedimentary_stone:5"
+    },
+    {
+      "target": "silver",
+      "weight": 9,
+      "id": "undergroundbiomes:sedimentary_stone:6"
+    },
+    {
+      "target": "gray",
+      "weight": 9,
+      "id": "undergroundbiomes:sedimentary_stone:7"
+    },
+    {
+      "target": "silver",
+      "weight": 30,
+      "id": "minecraft:gravel"
+    },
+    {
+      "target": "green",
+      "weight": 10,
+      "id": "minecraft:grass"
+    },
+    {
+      "target": "brown",
+      "weight": 20,
+      "id": "minecraft:dirt:0"
+    },
+    {
+      "target": "brown",
+      "weight": 10,
+      "id": "minecraft:dirt:2"
+    },
+    {
+      "target": "yellow",
+      "weight": 30,
+      "id": "minecraft:sand:0"
+    },
+    {
+      "target": "red",
+      "weight": 24,
+      "id": "minecraft:sand:1"
+    },
+    {
+      "target": "yellow",
+      "weight": 10,
+      "id": "minecraft:sandstone:0"
+    },
+    {
+      "target": "red",
+      "weight": 10,
+      "id": "minecraft:red_sandstone:0"
+    },
+    {
+      "target": "green",
+      "weight": 10,
+      "id": "minecraft:mossy_cobblestone"
+    },
+    {
+      "target": "purple",
+      "weight": 9,
+      "id": "minecraft:obsidian"
+    },
+    {
+      "target": "silver",
+      "weight": 12,
+      "id": "minecraft:clay"
+    },
+    {
+      "target": "red",
+      "weight": 28,
+      "id": "minecraft:netherrack"
+    },
+    {
+      "target": "brown",
+      "weight": 16,
+      "id": "minecraft:soul_sand"
+    },
+    {
+      "target": "purple",
+      "weight": 8,
+      "id": "minecraft:mycelium"
+    },
+    {
+      "target": "yellow",
+      "weight": 13,
+      "id": "minecraft:end_stone:0"
+    },
+    {
+      "target": "orange",
+      "weight": 12,
+      "id": "minecraft:hardened_clay"
+    },
+    {
+      "target": "white",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:0"
+    },
+    {
+      "target": "orange",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:1"
+    },
+    {
+      "target": "magenta",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:2"
+    },
+    {
+      "target": "light_blue",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:3"
+    },
+    {
+      "target": "yellow",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:4"
+    },
+    {
+      "target": "lime",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:5"
+    },
+    {
+      "target": "pink",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:6"
+    },
+    {
+      "target": "gray",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:7"
+    },
+    {
+      "target": "silver",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:8"
+    },
+    {
+      "target": "cyan",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:9"
+    },
+    {
+      "target": "purple",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:10"
+    },
+    {
+      "target": "blue",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:11"
+    },
+    {
+      "target": "brown",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:12"
+    },
+    {
+      "target": "green",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:13"
+    },
+    {
+      "target": "red",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:14"
+    },
+    {
+      "target": "black",
+      "weight": 2,
+      "id": "minecraft:stained_hardened_clay:15"
+    },
+    {
+      "target": "yellow",
+      "weight": 28,
+      "id": "minecraft:sponge"
+    },
+    {
+      "target": "brown",
+      "weight": 20,
+      "id": "chisel:brownstone"
+    },
+    {
+      "target": "light_blue",
+      "weight": 8,
+      "id": "minecraft:ice"
+    },
+    {
+      "target": "light_blue",
+      "weight": 6,
+      "id": "minecraft:packed_ice"
+    },
+    {
+      "target": "white",
+      "weight": 7,
+      "id": "environmentaltech:mica"
+    }]
+}

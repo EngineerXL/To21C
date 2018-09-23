@@ -1,0 +1,8 @@
+setIcon(<calculator:atomicmultiplier>)
+setTitle("Atomic Multiplier")
+setDescription("Legal duping")
+addParent("triumph:To21C/catalyst")
+setPos(-288,-312)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<calculator:atomicmultiplier>)
+setFrameType("CHALLENGE")

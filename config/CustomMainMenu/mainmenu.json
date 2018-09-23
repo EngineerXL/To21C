@@ -1,0 +1,147 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "mainmenu:3.png",
+            "posX" : -67,
+            "posY" : -65,
+            "width" : 128,
+            "height" : 128,
+            "alignment" : "center"
+		},
+		
+		"tech":
+		{
+            "image" : "mainmenu:6.png",
+            "posX" : -136,
+            "posY" : -92,
+            "width" : 288,
+            "height" : 48,
+            "alignment" : "center"
+		},
+		
+		"century":
+		{
+            "image" : "mainmenu:7.png",
+            "posX" : -66,
+            "posY" : 35,
+            "width" : 128,
+            "height" : 36,
+            "alignment" : "center"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -180,
+            "posY" : 53,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:4.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        }, 
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 82,
+            "posY" : 53,
+            "width" : 98,
+            "height" : 20,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:4.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        }, 
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : 42,
+            "posY" : 82.5,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:4.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        
+		"options":
+        {
+            "text" : "menu.options",
+            "posX" : -140,
+            "posY" : 82.5,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:4.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },  
+		
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -100,
+            "posY" : 110,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:2.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_right",
+            "texture" : "mainmenu:5.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "",
+			"slideshow":
+            {
+                "images" : ["mainmenu:1_0.png","mainmenu:1_1.png","mainmenu:1_2.png","mainmenu:1_3.png","mainmenu:1_4.png","mainmenu:1_5.png","mainmenu:1_6.png","mainmenu:1_7.png","mainmenu:1_8.png","mainmenu:1_9.png","mainmenu:1_10.png","mainmenu:1_11.png","mainmenu:1_12.png","mainmenu:1_13.png","mainmenu:1_14.png","mainmenu:1_15.png","mainmenu:1_16.png","mainmenu:1_17.png","mainmenu:1_18.png","mainmenu:1_19.png","mainmenu:1_20.png","mainmenu:1_21.png"],
+                "displayDuration" : 1,
+                "fadeDuration" : 5
+            },
+            "mode" : "fill"
+        }
+    }
+}

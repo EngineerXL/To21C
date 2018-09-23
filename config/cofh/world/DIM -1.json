@@ -1,0 +1,113 @@
+{
+	"populate": {
+		
+		"pyrite_nether": {
+	    "enabled" = true,
+        "distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "techreborn:ore",
+						"metadata": 5,
+						"weight": 70
+					},
+					{
+						"name": "techreborn:ore",
+						"metadata": 7,
+						"weight": 30
+					}
+				],
+            "material": "minecraft:netherrack",
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 128,
+        "min-height": 40,
+		"max-height": 80,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+		    }
+		},	
+		
+		"quartz_nether": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "minecraft:quartz_ore",
+						"weight": 70
+					},
+					{
+						"name": "actuallyadditions:block_misc",
+						"metadata": 3,
+						"weight": 30
+					}
+				],
+            "material": "minecraft:netherrack",
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 160,
+        "min-height": 60,
+		"max-height": 100,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+		    }
+		},
+		
+		"cinnabar_nether": {
+	    "enabled" = true,
+        "distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "techreborn:ore",
+						"metadata": 6,
+						"weight": 50
+					},
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"metadata": 3,
+						"weight": 25
+					},
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"metadata": 2,
+						"weight": 25
+					}
+				],
+            "material": "minecraft:netherrack",
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 213,
+        "min-height": 60,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+		    }
+		}		
+	}
+}

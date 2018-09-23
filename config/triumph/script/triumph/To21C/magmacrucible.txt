@@ -1,0 +1,8 @@
+setIcon(<thermalexpansion:machine:6>)
+setTitle("Magma crucible")
+setDescription("Advanced melting. Enderium? Signalum?")
+addParent("triumph:To21C/tier2")
+setPos(-765,-309)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<thermalexpansion:machine:6>)
+setFrameType("GOAL")

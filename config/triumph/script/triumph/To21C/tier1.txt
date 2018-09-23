@@ -1,0 +1,8 @@
+setIcon(<techreborn:machine_frame>)
+setTitle("Tier 1 Machines")
+setDescription("So, let's start with TechReborn - Ic2 like mod")
+addParent("triumph:To21C/blackiron")
+setPos(-868,-337)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:machine_frame>)
+setFrameType("GOAL")

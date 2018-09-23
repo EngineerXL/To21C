@@ -1,0 +1,38 @@
+{
+	"dependencies": "thermalfoundation",
+	
+	"populate": {
+
+// Don't edit this file! If you rename or delete this file, CoFH will generate new files
+	
+		"gravel": {
+		    "enabled" = false,
+			"distribution": "uniform",
+			"generator": {
+				"block": "gravel",
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1,
+					-28,
+					-29,
+					-30,
+					-31,
+					-2542,
+					-2543,
+					-2544,
+					-2545
+				]
+			}
+		}
+	}
+}	

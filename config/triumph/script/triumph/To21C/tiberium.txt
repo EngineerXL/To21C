@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:tiberiumdust>)
+setTitle("Tiberium")
+setDescription("Prepare your GigaRF")
+addParent("triumph:To21C/hadron")
+setPos(-460,-312)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:tiberiumdust>)
+setFrameType("GOAL")

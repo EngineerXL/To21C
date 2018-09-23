@@ -1,0 +1,8 @@
+setIcon(<mekanism:basicblock:8>)
+setTitle("Tier 4 Machines")
+setDescription("End? NO! It begins now!")
+addParent("triumph:To21C/osmium")
+setPos(-595,-281)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:basicblock:8>)
+setFrameType("GOAL")

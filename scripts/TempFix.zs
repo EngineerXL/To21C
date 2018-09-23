@@ -1,0 +1,1 @@
+recipes.addShapeless(<extrautils2:ingredients>, [<techreborn:gem:3>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]);

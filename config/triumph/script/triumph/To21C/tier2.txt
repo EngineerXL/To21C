@@ -1,0 +1,8 @@
+setIcon(<thermalexpansion:frame>)
+setTitle("Tier 2 Machines")
+setDescription("More machines")
+addParent("triumph:To21C/aluminum")
+setPos(-802,-309)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<thermalexpansion:frame>)
+setFrameType("GOAL")

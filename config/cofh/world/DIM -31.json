@@ -1,0 +1,367 @@
+{
+	"populate": {
+	
+		"quartz_venus": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 9,
+						"weight": 60
+					},
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 10,
+						"weight": 40
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 1
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 160,
+        "min-height": 60,
+		"max-height": 100,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+		    }
+		},
+		
+		"copper_low_venus": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 7,
+						"weight": 65
+					},
+					{
+						"name": "contenttweaker:venusiron",
+						"weight": 35
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 1
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 160,
+        "min-height": 10,
+		"max-height": 30,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+		    }
+		},
+		
+		"ilmenite_venus": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "contenttweaker:venusilmenite",
+						"weight": 65
+					},
+					{
+						"name": "contenttweaker:venusiron",
+						"weight": 35
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 1
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 160,
+        "min-height": 70,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+		    }
+		},
+		
+		"copper_high_venus": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 7
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 1
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 182,
+        "min-height": 70,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+		    }
+		},
+		
+		"aluminum_venus": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"metadata": 4
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 1
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 213,
+        "min-height": 70,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+		    }
+		}
+		
+		"tin_venus": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 11
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 1
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 256,
+        "min-height": 70,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+		    }
+		},
+		
+		"galena_venus": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 8
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 1
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 320,
+        "min-height": 30,
+		"max-height": 60,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+		    }
+		},
+		
+		"nickel_venus": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "contenttweaker:venusnickel",
+						"weight": 65
+					},
+					{
+						"name": "contenttweaker:venusiron",
+						"weight": 35
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 1
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 320,
+        "min-height": 20,
+		"max-height": 30,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+		    }
+		},
+		
+		"uranium_venus": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "immersiveengineering:ore",
+						"metadata": 5
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 1
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 320,
+        "min-height": 20,
+		"max-height": 30,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+		    }
+		},
+
+		"osmium_venus": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+					{
+						"name": "contenttweaker:venusosmium",
+						"weight": 65
+					},
+					{
+						"name": "contenttweaker:venusiridium",
+						"weight": 35
+					}
+				],
+            "material": [
+					{
+						"name": "galacticraftplanets:venus",
+						"metadata": 1
+					}
+				],
+            "cluster-size": 10,
+            "type": "large-vein",
+            "sparse": true
+        },
+        "cluster-count": 300,
+        "chunk-chance": 426,
+        "min-height": 40,
+		"max-height": 50,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+		    }
+		}
+	}
+}	

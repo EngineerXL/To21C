@@ -1,0 +1,8 @@
+setIcon(<extendedcrafting:singularity_ultimate>)
+setTitle("Ultimate Singularity")
+setDescription("Get ready to craft another one")
+addParent("triumph:To21C/naquadahstar")
+setPos(-353,-312)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<extendedcrafting:singularity_ultimate>)
+setFrameType("CHALLENGE")

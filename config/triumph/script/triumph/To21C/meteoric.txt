@@ -1,0 +1,8 @@
+setIcon(<galacticraftcore:item_basic_moon>)
+setTitle("Meteoric iron")
+setDescription("Easy way to get iridium")
+addParent("triumph:To21C/rocket1")
+setPos(-835,-253)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<galacticraftcore:item_basic_moon>)
+setFrameType("GOAL")

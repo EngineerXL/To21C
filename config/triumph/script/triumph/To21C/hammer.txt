@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:tool>)
+setTitle("HAMMAH")
+setDescription("It'll be useful for making plates and constructing such multiblocks as coke oven and blast furnace")
+addParent("triumph:To21C/iron")
+setPos(-835,-390)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:tool>)

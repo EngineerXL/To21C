@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:metal_multiblock>)
+setTitle("Metal Press")
+setDescription("Allows you to make plates, wires, rods in easy way")
+addParent("triumph:To21C/blastIE")
+setPos(-804,-420)
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:MetalPress")
+setFrameType("GOAL")

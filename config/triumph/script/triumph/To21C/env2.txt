@@ -1,0 +1,7 @@
+setIcon(<environmentaltech:structure_frame_2>)
+setTitle("Enviromental tier 2")
+setDescription("Moar expensive")
+addParent("triumph:To21C/env1")
+setPos(-865,-200)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<environmentaltech:structure_frame_2>)

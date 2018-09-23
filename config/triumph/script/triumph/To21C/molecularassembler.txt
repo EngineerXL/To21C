@@ -1,0 +1,8 @@
+setIcon(<appliedenergistics2:molecular_assembler>)
+setTitle("Molecular assembler")
+setDescription("Automation is here!")
+addParent("triumph:To21C/me")
+setPos(-695,-202)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:molecular_assembler>)
+setFrameType("CHALLENGE")

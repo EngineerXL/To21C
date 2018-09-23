@@ -1,0 +1,8 @@
+setIcon(<techreborn:creative_solar_panel>)
+setTitle("Creative panel")
+setDescription("64K FE/T is so little...")
+addParent("triumph:To21C/nanoprocessor")
+setPos(-460,-214)
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:creative_solar_panel>)
+setFrameType("CHALLENGE")
