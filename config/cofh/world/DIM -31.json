@@ -23,11 +23,11 @@
 						"metadata": 1
 					}
 				],
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 160,
         "min-height": 60,
 		"max-height": 100,
@@ -62,11 +62,11 @@
 						"metadata": 1
 					}
 				],
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 160,
         "min-height": 10,
 		"max-height": 30,
@@ -100,11 +100,11 @@
 						"metadata": 1
 					}
 				],
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 160,
         "min-height": 70,
 		"max-height": 120,
@@ -134,11 +134,11 @@
 						"metadata": 1
 					}
 				],
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 182,
         "min-height": 70,
 		"max-height": 120,
@@ -168,11 +168,11 @@
 						"metadata": 1
 					}
 				],
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 213,
         "min-height": 70,
 		"max-height": 120,
@@ -202,11 +202,11 @@
 						"metadata": 1
 					}
 				],
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 256,
         "min-height": 70,
 		"max-height": 120,
@@ -236,11 +236,11 @@
 						"metadata": 1
 					}
 				],
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 320,
         "min-height": 30,
 		"max-height": 60,
@@ -274,11 +274,11 @@
 						"metadata": 1
 					}
 				],
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 320,
         "min-height": 20,
 		"max-height": 30,
@@ -308,11 +308,11 @@
 						"metadata": 1
 					}
 				],
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 320,
         "min-height": 20,
 		"max-height": 30,
@@ -346,11 +346,11 @@
 						"metadata": 1
 					}
 				],
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 426,
         "min-height": 40,
 		"max-height": 50,

@@ -7,11 +7,11 @@
         "generator": {
 			"block": "minecraft:coal_ore",
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 80,
         "min-height": 80,
 		"max-height": 110,
@@ -40,11 +40,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 80,
         "min-height": 60,
 		"max-height": 80,
@@ -64,11 +64,11 @@
         "generator": {
 			"block": "minecraft:iron_ore",
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 106,
         "min-height": 10,
 		"max-height": 40,
@@ -88,11 +88,11 @@
         "generator": {
 			"block": "minecraft:coal_ore",
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 160,
         "min-height": 50,
 		"max-height": 80,
@@ -121,11 +121,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 160,
         "min-height": 10,
 		"max-height": 30,
@@ -155,11 +155,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 160,
         "min-height": 70,
 		"max-height": 120,
@@ -179,11 +179,11 @@
         "generator": {
 			"block": "thermalfoundation:ore",
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 182,
         "min-height": 70,
 		"max-height": 120,
@@ -213,11 +213,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 213,
         "min-height": 10,
 		"max-height": 40,
@@ -242,11 +242,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 213,
         "min-height": 10,
 		"max-height": 40,
@@ -275,11 +275,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 213,
         "min-height": 40,
 		"max-height": 80,
@@ -299,11 +299,11 @@
         "generator": {
 			"block": "forestry:resources",
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 213,
         "min-height": 40,
 		"max-height": 60,
@@ -328,11 +328,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 256,
         "min-height": 70,
 		"max-height": 120,
@@ -363,11 +363,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 320,
         "min-height": 10,
 		"max-height": 40,
@@ -396,11 +396,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 320,
         "min-height": 5,
 		"max-height": 20,
@@ -435,11 +435,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 320,
         "min-height": 30,
 		"max-height": 60,
@@ -459,11 +459,11 @@
         "generator": {
 			"block": "minecraft:lapis_ore",
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 320,
         "min-height": 20,
 		"max-height": 40,
@@ -483,11 +483,11 @@
         "generator": {
 			"block": "minecraft:emerald_ore",
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 426,
         "min-height": 5,
 		"max-height": 30,
@@ -518,11 +518,11 @@
 				}
 				],
             "material": "minecraft:stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 2560,
         "min-height": 40,
 		"max-height": 50,

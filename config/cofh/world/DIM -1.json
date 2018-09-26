@@ -18,11 +18,11 @@
 					}
 				],
             "material": "minecraft:netherrack",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 128,
         "min-height": 40,
 		"max-height": 80,
@@ -52,11 +52,11 @@
 					}
 				],
             "material": "minecraft:netherrack",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 160,
         "min-height": 60,
 		"max-height": 100,
@@ -92,11 +92,11 @@
 					}
 				],
             "material": "minecraft:netherrack",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 213,
         "min-height": 60,
 		"max-height": 120,

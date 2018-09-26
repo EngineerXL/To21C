@@ -12,11 +12,11 @@
 					}
 				],
             "material": "minecraft:end_stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 213,
         "min-height": 10,
 		"max-height": 40,
@@ -41,11 +41,11 @@
 					}
 				],
             "material": "minecraft:end_stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 213,
         "min-height": 10,
 		"max-height": 40,
@@ -70,11 +70,11 @@
 				}
 				],
             "material": "minecraft:end_stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 320,
         "min-height": 20,
 		"max-height": 40,
@@ -99,11 +99,11 @@
 					}
 				],
             "material": "minecraft:end_stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 640,
         "min-height": 20,
 		"max-height": 50,
@@ -133,11 +133,11 @@
 					}
 				],
             "material": "minecraft:end_stone",
-            "cluster-size": 10,
+            "cluster-size": 210,
             "type": "large-vein",
-            "sparse": true
+            "sparse": false
         },
-        "cluster-count": 300,
+        "cluster-count": 1,
         "chunk-chance": 1280,
         "min-height": 40,
 		"max-height": 50,
