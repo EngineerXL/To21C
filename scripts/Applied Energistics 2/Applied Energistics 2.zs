@@ -16,6 +16,7 @@ recipes.addShaped(<appliedenergistics2:crafting_unit>, [[<galacticraftplanets:it
 // Energy acceptor \\
 recipes.remove(<appliedenergistics2:energy_acceptor>);
 recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<galacticraftcore:item_basic_moon:1>, <appliedenergistics2:quartz_glass>, <galacticraftcore:item_basic_moon:1>], [<appliedenergistics2:quartz_glass>, <calculator:electricdiamond>, <appliedenergistics2:quartz_glass>], [<galacticraftcore:item_basic_moon:1>, <appliedenergistics2:quartz_glass>, <galacticraftcore:item_basic_moon:1>]]);
+recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<contenttweaker:compressedvoidmetal>, <appliedenergistics2:quartz_glass>, <contenttweaker:compressedvoidmetal>], [<appliedenergistics2:quartz_glass>, <calculator:electricdiamond>, <appliedenergistics2:quartz_glass>], [<contenttweaker:compressedvoidmetal>, <appliedenergistics2:quartz_glass>, <contenttweaker:compressedvoidmetal>]]);
 
 // Energy cell \\
 recipes.remove(<appliedenergistics2:energy_cell>);
@@ -24,6 +25,7 @@ recipes.addShaped(<appliedenergistics2:energy_cell>, [[<jaopca:item_stickmeteori
 // Inscriber \\
 recipes.remove(<appliedenergistics2:inscriber>);
 recipes.addShaped(<appliedenergistics2:inscriber>, [[<galacticraftcore:item_basic_moon:1>, <minecraft:sticky_piston>, <galacticraftcore:item_basic_moon:1>], [<calculator:flawlessassembly>, <appliedenergistics2:material:12>, <calculator:flawlessassembly>], [<galacticraftcore:item_basic_moon:1>, <minecraft:sticky_piston>, <galacticraftcore:item_basic_moon:1>]]);
+recipes.addShaped(<appliedenergistics2:inscriber>, [[<contenttweaker:compressedvoidmetal>, <minecraft:sticky_piston>, <contenttweaker:compressedvoidmetal>], [<calculator:flawlessassembly>, <appliedenergistics2:material:12>, <calculator:flawlessassembly>], [<contenttweaker:compressedvoidmetal>, <minecraft:sticky_piston>, <contenttweaker:compressedvoidmetal>]]);
 
 // ME interface \\
 recipes.remove(<appliedenergistics2:interface>);

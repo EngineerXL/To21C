@@ -111,8 +111,12 @@ recipes.addShaped(<techreborn:ingot:21>, [[<techreborn:plates:34>], [<techreborn
 recipes.addShaped(<techreborn:ingot:21>, [[<techreborn:plates:34>], [<techreborn:plates:17>], [<thermalfoundation:material:324>]]);
 recipes.addShaped(<techreborn:ingot:21>, [[<thermalfoundation:material:325>], [<techreborn:plates:17>], [<thermalfoundation:material:321>]]);
 recipes.addShaped(<techreborn:ingot:21>, [[<thermalfoundation:material:325>], [<techreborn:plates:17>], [<thermalfoundation:material:324>]]);
+recipes.addShaped(<techreborn:ingot:21>*2, [[<thaumcraft:plate:2>], [<techreborn:plates:17>], [<thermalfoundation:material:321>]]);
+recipes.addShaped(<techreborn:ingot:21>*2, [[<thaumcraft:plate:2>], [<techreborn:plates:17>], [<techreborn:plates:33>]]);
 recipes.addShaped(<techreborn:ingot:21>*2, [[<thermalfoundation:material:352>], [<techreborn:plates:17>], [<thermalfoundation:material:321>]]);
 recipes.addShaped(<techreborn:ingot:21>*2, [[<thermalfoundation:material:354>], [<techreborn:plates:17>], [<techreborn:plates:33>]]);
+recipes.addShaped(<techreborn:ingot:21>*3, [[<thaumcraft:plate:3>], [<techreborn:plates:17>], [<thermalfoundation:material:321>]]);
+recipes.addShaped(<techreborn:ingot:21>*3, [[<thaumcraft:plate:3>], [<techreborn:plates:17>], [<techreborn:plates:33>]]);
 recipes.addShaped(<techreborn:ingot:21>*3, [[<techreborn:plates:30>], [<techreborn:plates:17>], [<thermalfoundation:material:321>]]);
 recipes.addShaped(<techreborn:ingot:21>*3, [[<techreborn:plates:30>], [<techreborn:plates:17>], [<techreborn:plates:33>]]);
 recipes.addShaped(<techreborn:ingot:21>*3, [[<techreborn:plates:31>], [<techreborn:plates:17>], [<thermalfoundation:material:321>]]);

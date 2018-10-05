@@ -11,6 +11,7 @@ recipes.addShaped(<extendedcrafting:interface>, [[<extendedcrafting:material>, <
 // Basic crafting table \\
 recipes.remove(<extendedcrafting:table_basic>);
 recipes.addShaped(<extendedcrafting:table_basic>, [[<extendedcrafting:material:2>, <extendedcrafting:material:2>, <extendedcrafting:material:2>], [<ore:workbench>, <ore:blockIron>, <ore:workbench>], [<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>]]);
+recipes.addShaped(<extendedcrafting:table_basic>, [[<thaumcraft:plate:2>, <thaumcraft:plate:2>, <thaumcraft:plate:2>], [<ore:workbench>, <ore:blockIron>, <ore:workbench>], [<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>]]);
 
 // Black iron ingot \\
 recipes.remove(<extendedcrafting:material>);

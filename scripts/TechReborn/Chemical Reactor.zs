@@ -4,7 +4,7 @@
 
 import mods.techreborn.chemicalReactorRecipe;
 
-print("Distillation Tower.zs starts to load.");
+print("Chemical Reactor.zs starts to load.");
 
 chemicalReactorRecipe.removeAll();
 

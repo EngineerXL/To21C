@@ -1,3 +1,4 @@
+item.contenttweaker.hotdraconiumingot.name=Hot Draconium Ingot
 item.contenttweaker.moondust.name=Moon Turf Dust
 item.contenttweaker.wiringlv.name=Etched Low Voltage Wiring
 item.contenttweaker.wiringmv.name=Etched Medium Voltage Wiring
@@ -73,6 +74,8 @@ item.contenttweaker.tiberiumplate.name=Tiberium Plate
 item.contenttweaker.slsteeldust.name=Stainless Steel Dust
 item.contenttweaker.slsteelplate.name=Stainless Steel Plate
 item.contenttweaker.slsteelhull.name=Stainless Steel Hull
+item.contenttweaker.thaumiumhull.name=Thaumium Hull
+item.contenttweaker.compressedvoidmetal.name=Compressed Void Metal
 item.contenttweaker.icon.name=To21C Icon
 item.contenttweaker.file.name=Engineer's File
 item.contenttweaker.ironring.name=Iron Ring

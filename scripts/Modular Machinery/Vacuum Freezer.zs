@@ -15,6 +15,14 @@ desh.addItemInput(<contenttweaker:hotdeshingot>);
 desh.addItemOutput(<galacticraftplanets:item_basic_mars:2>);
 desh.build();
 
+// Draconium \\
+var draconium = RecipeBuilder.newBuilder("draconium", "vac_freezer", 200);
+
+draconium.addEnergyPerTickInput(512);
+draconium.addItemInput(<contenttweaker:hotdraconiumingot>);
+draconium.addItemOutput(<draconicevolution:draconium_ingot>);
+draconium.build();
+
 // Helium plasma \\
 var helium = RecipeBuilder.newBuilder("helium", "vac_freezer", 200);
 

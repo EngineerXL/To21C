@@ -1,119 +1,34 @@
 {
   "outputs": [
     {
-      "target": "red",
-      "weight": 9,
-      "id": "undergroundbiomes:igneous_stone"
-    },
-    {
-      "target": "black",
-      "weight": 9,
-      "id": "undergroundbiomes:igneous_stone:1"
-    },
-    {
-      "target": "brown",
-      "weight": 9,
-      "id": "undergroundbiomes:igneous_stone:2"
-    },
-    {
-      "target": "silver",
-      "weight": 9,
-      "id": "undergroundbiomes:igneous_stone:3"
-    },
-    {
-      "target": "purple",
-      "weight": 9,
-      "id": "undergroundbiomes:igneous_stone:4"
-    },
-    {
-      "target": "black",
-      "weight": 9,
-      "id": "undergroundbiomes:igneous_stone:5"
-    },
-    {
-      "target": "orange",
-      "weight": 9,
-      "id": "undergroundbiomes:igneous_stone:6"
-    },
-    {
-      "target": "silver",
-      "weight": 9,
-      "id": "undergroundbiomes:igneous_stone:7"
-    },
-    {
       "target": "gray",
-      "weight": 9,
-      "id": "undergroundbiomes:metamorphic_stone"
+      "weight": 32,
+      "id": "minecraft:stone:0"
     },
     {
-      "target": "brown",
-      "weight": 9,
-      "id": "undergroundbiomes:metamorphic_stone:1"
+      "target": "pink",
+      "weight": 30,
+      "id": "minecraft:stone:1"
     },
     {
       "target": "white",
-      "weight": 9,
-      "id": "undergroundbiomes:metamorphic_stone:2"
-    },
-    {
-      "target": "orange",
-      "weight": 9,
-      "id": "undergroundbiomes:metamorphic_stone:3"
-    },
-    {
-      "target": "blue",
-      "weight": 9,
-      "id": "undergroundbiomes:metamorphic_stone:4"
-    },
-    {
-      "target": "green",
-      "weight": 9,
-      "id": "undergroundbiomes:metamorphic_stone:5"
-    },
-    {
-      "target": "white",
-      "weight": 9,
-      "id": "undergroundbiomes:metamorphic_stone:6"
+      "weight": 30,
+      "id": "minecraft:stone:3"
     },
     {
       "target": "gray",
-      "weight": 9,
-      "id": "undergroundbiomes:metamorphic_stone:7"
+      "weight": 30,
+      "id": "minecraft:stone:5"
     },
-    {
+	{
       "target": "yellow",
-      "weight": 9,
-      "id": "undergroundbiomes:sedimentary_stone"
+      "weight": 30,
+      "id": "OD:stoneLimestone"
     },
     {
       "target": "white",
-      "weight": 9,
-      "id": "undergroundbiomes:sedimentary_stone:1"
-    },
-    {
-      "target": "gray",
-      "weight": 9,
-      "id": "undergroundbiomes:sedimentary_stone:2"
-    },
-    {
-      "target": "orange",
-      "weight": 9,
-      "id": "undergroundbiomes:sedimentary_stone:3"
-    },
-    {
-      "target": "brown",
-      "weight": 9,
-      "id": "undergroundbiomes:sedimentary_stone:5"
-    },
-    {
-      "target": "silver",
-      "weight": 9,
-      "id": "undergroundbiomes:sedimentary_stone:6"
-    },
-    {
-      "target": "gray",
-      "weight": 9,
-      "id": "undergroundbiomes:sedimentary_stone:7"
+      "weight": 30,
+      "id": "OD:stoneMarble"
     },
     {
       "target": "silver",

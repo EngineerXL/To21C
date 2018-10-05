@@ -20,6 +20,9 @@ industrialElectrolyzer.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {Fluid
 // Bone meal \\
 industrialElectrolyzer.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcalcium", Amount: 1000}}), null, null, null, <minecraft:dye:15>*3, <techreborn:dynamiccell>, 20, 106).setUseOreDict(false);
 
+// Quicksilver \\
+industrialElectrolyzer.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidmercury", Amount: 1000}}), null, null, null, <thaumcraft:quicksilver>*2, <techreborn:dynamiccell>, 20, 80);
+
 // Sugar \\
 industrialElectrolyzer.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}})*2, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "water", Amount: 1000}})*3, null, null, <minecraft:sugar>*32, <techreborn:dynamiccell>*5, 200, 32).setUseOreDict(true);
 

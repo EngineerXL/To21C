@@ -52,6 +52,7 @@ assemblingMachine.addRecipe(<contenttweaker:steelhull>, <thermalfoundation:mater
 assemblingMachine.addRecipe(<contenttweaker:tinhull>, <thermalfoundation:material:321>*6, <techreborn:part:25>, 400, 32);
 assemblingMachine.addRecipe(<contenttweaker:titaniumhull>, <techreborn:plates:30>*6, <techreborn:part:25>, 400, 32);
 assemblingMachine.addRecipe(<contenttweaker:slsteelhull>, <contenttweaker:slsteelplate>*6, <techreborn:part:25>, 400, 32);
+assemblingMachine.addRecipe(<contenttweaker:thaumiumhull>, <thaumcraft:plate:2>*6, <techreborn:part:25>, 400, 32);
 
 // Integrated casing \\
 assemblingMachine.addRecipe(<genetics:misc:10>, <genetics:misc:8>*8, <genetics:misc>, 600, 128);
@@ -73,6 +74,7 @@ assemblingMachine.addRecipe(<modularmachinery:blockcasing:3>, <enderio:item_mate
 
 // Machine part \\
 assemblingMachine.addRecipe(<techreborn:part:25>*4, <thermalfoundation:material:352>*2, <techreborn:part:29>, 800, 64);
+assemblingMachine.addRecipe(<thaumcraft:plate:2>*4, <thermalfoundation:material:352>*2, <techreborn:part:29>, 800, 64);
 
 // Machine vent \\
 assemblingMachine.addRecipe(<modularmachinery:blockcasing:1>, <enderio:block_dark_iron_bars>*4, <modularmachinery:blockcasing>, 400, 128);

@@ -152,6 +152,11 @@
       "weight": 137,
       "id": "thermalfoundation:ore_fluid:2"
     },
+	{
+      "target": "purple",
+      "weight": 142,
+      "id": "draconicevolution:draconium_ore"
+    },
 // DIM 1
 	{
       "target": "green",

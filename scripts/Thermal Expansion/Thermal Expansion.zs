@@ -4,6 +4,9 @@
 
 print("Thermal Foundation.zs starts to load.");
 
+// Aerotheum \\
+recipes.remove(<thermalfoundation:material:1026>);
+
 // Aluminum ingot \\ 
 furnace.remove(<ore:ingotAluminum>);
 furnace.remove(<ore:ingotAluminium>);
@@ -22,6 +25,9 @@ recipes.remove(<thermaldynamics:duct_0:9>);
 recipes.addShaped(<thermaldynamics:duct_0:9>, [[<techreborn:plates:32>, <techreborn:part:17>, <techreborn:plates:32>], [<techreborn:part:17>, <thermaldynamics:duct_0:4>, <techreborn:part:17>], [<techreborn:plates:32>, <techreborn:part:17>, <techreborn:plates:32>]]);
 <thermaldynamics:duct_0:9>.displayName = "Empty superconductor wire";
 <thermaldynamics:duct_0:5>.displayName = "Superconductor wire";
+
+// Cryotheum \\
+recipes.remove(<thermalfoundation:material:1025>);
 
 // Device frame \\
 recipes.remove(<thermalexpansion:frame:64>);
@@ -46,6 +52,12 @@ furnace.remove(<thermalfoundation:material:136>);
 recipes.remove(<thermalfoundation:material:136>);
 recipes.addShapeless(<thermalfoundation:material:136>, [<thermalfoundation:material:200>, <thermalfoundation:material:200>, <thermalfoundation:material:200>, <thermalfoundation:material:200>, <thermalfoundation:material:200>, <thermalfoundation:material:200>, <thermalfoundation:material:200>, <thermalfoundation:material:200>, <thermalfoundation:material:200>]);
 recipes.addShapeless(<thermalfoundation:material:136>*9, [<thermalfoundation:storage:8>]);
+
+// Petrotheum \\
+recipes.remove(<thermalfoundation:material:1027>);
+
+// Pyrotheum \\
+recipes.remove(<thermalfoundation:material:1024>);
 
 // Reception coil \\
 recipes.remove(<thermalfoundation:material:513>);

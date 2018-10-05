@@ -10,9 +10,6 @@ print("Dictionary.zs starts to load.");
 <ore:seedBroccoli>.add(<calculator:broccoliseeds>);
 furnace.remove(<calculator:cookedbroccoli>);
 
-// Cobblestone \\
-recipes.addShapeless(<minecraft:cobblestone>*2, [<ore:cobblestone>, <ore:cobblestone>]);
-
 // Compressed metals oredict fix \\
 <ore:plateCopper>.remove(<galacticraftcore:basic_item:6>);
 <ore:plateTin>.remove(<galacticraftcore:basic_item:7>);
@@ -113,5 +110,10 @@ recipes.addShapeless(<thermalfoundation:material:70>*2, [<contenttweaker:moonpla
 
 // Stone \\
 recipes.addShapeless(<minecraft:stone>*2, [<ore:stone>, <ore:stone>]);
+
+// Quicksilver \\
+furnace.remove(<thaumcraft:quicksilver>);
+furnace.addRecipe(<thaumcraft:quicksilver>, <techreborn:dust:11>);
+furnace.addRecipe(<thaumcraft:quicksilver>, <ore:oreCinnabar>);
 
 print("Dictionary.zs is loaded.");

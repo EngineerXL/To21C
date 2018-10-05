@@ -9,6 +9,7 @@ print("Extended Recipes.zs starts to load.");
 
 // Advanced machine frame \\
 TableCrafting.addShaped(1, <techreborn:machine_frame:1>, [[<techreborn:cable:6>, <contenttweaker:steelhull>, <techreborn:cable:6>], [<jaopca:item_stickquartzblack>, <thermalfoundation:material:354>, <jaopca:item_stickquartzblack>]]);
+TableCrafting.addShaped(1, <techreborn:machine_frame:1>, [[<techreborn:cable:6>, <contenttweaker:thaumiumhull>, <techreborn:cable:6>], [<jaopca:item_stickquartzblack>, <thermalfoundation:material:354>, <jaopca:item_stickquartzblack>]]);
 
 // Astro-miner \\
 TableCrafting.addShaped(3, <galacticraftplanets:astro_miner>, [[<galacticraftplanets:schematic:2>], 
@@ -125,6 +126,7 @@ TableCrafting.addShaped(1, <mekanism:basicblock:8>, [[<enderio:item_power_condui
 TableCrafting.addShaped(1, <forestry:sturdy_machine>, [[<immersiveengineering:wirecoil>, <contenttweaker:bronzehull>, <immersiveengineering:wirecoil>], [<jaopca:item_stickcopper>, <thermalfoundation:material:32>, <jaopca:item_stickcopper>]]);
 
 // Tier 1-6 frames \\
+TableCrafting.addShaped(1, <environmentaltech:structure_frame_1>, [[null, <techreborn:plates:19>], [<environmentaltech:litherite_crystal>, <environmentaltech:interconnect>, <environmentaltech:litherite_crystal>], [null, <thaumcraft:plate:3>]]);
 TableCrafting.addShaped(1, <environmentaltech:structure_frame_1>, [[null, <techreborn:plates:19>], [<environmentaltech:litherite_crystal>, <environmentaltech:interconnect>, <environmentaltech:litherite_crystal>], [null, <jaopca:item_platemeteoriciron>]]);
 TableCrafting.addShaped(1, <environmentaltech:structure_frame_2>, [[null, <ore:ingotUnstable>], [<environmentaltech:erodium_crystal>, <environmentaltech:structure_frame_1>, <environmentaltech:erodium_crystal>], [null, <techreborn:plates:37>]]);
 TableCrafting.addShaped(1, <environmentaltech:structure_frame_3>, [[null, <techreborn:plates:32>], [<environmentaltech:kyronite_crystal>, <environmentaltech:structure_frame_2>, <environmentaltech:kyronite_crystal>], [null, <techreborn:plates:32>]]);

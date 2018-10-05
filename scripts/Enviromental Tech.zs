@@ -16,8 +16,8 @@ recipes.remove(<environmentaltech:interconnect>);
 
 // Litherite crystal \\
 recipes.remove(<environmentaltech:litherite_crystal>);
-recipes.addShaped(<environmentaltech:litherite_crystal>, [[<extrabees:honey_drop:26>, <actuallyadditions:item_crystal_empowered:3>, <extrabees:honey_drop:16>], [<actuallyadditions:item_crystal_empowered:3>, <galacticraftcore:item_basic_moon:2>, <actuallyadditions:item_crystal_empowered:3>], [<extrabees:honey_drop:16>, <actuallyadditions:item_crystal_empowered:3>, <extrabees:honey_drop:26>]]);
 recipes.addShapeless(<environmentaltech:litherite_crystal>*9, [<environmentaltech:litherite>]);
+mods.actuallyadditions.Empowerer.addRecipe(<environmentaltech:litherite_crystal>, <galacticraftcore:item_basic_moon:2>, <actuallyadditions:item_crystal_empowered:4>, <enderio:item_material:48>, <techreborn:dust:36>, <enderio:item_material:48>, 250000, 600, [0.1, 0.9, 0.4]);
 
 // Photovoltaic cell \\
 recipes.remove(<environmentaltech:photovoltaic_cell>);

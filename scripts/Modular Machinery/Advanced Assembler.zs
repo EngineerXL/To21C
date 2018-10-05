@@ -66,6 +66,16 @@ datastorage.addItemInput(<techreborn:part:30>);
 datastorage.addItemOutput(<techreborn:part:2>*4);
 datastorage.build();
 
+// Draconic core \\
+var draconiccore = RecipeBuilder.newBuilder("draconiccore", "adv_assembler", 240);
+
+draconiccore.addEnergyPerTickInput(2048);
+draconiccore.addItemInput(<calculator:flawlessdiamond>);
+draconiccore.addItemInput(<jaopca:item_platedraconium>*4);
+draconiccore.addItemInput(<extrautils2:ingredients:11>*4);
+draconiccore.addItemOutput(<draconicevolution:draconic_core>);
+draconiccore.build();
+
 // Elite circuit board \\
 var eliteboard = RecipeBuilder.newBuilder("eliteboard", "adv_assembler", 160);
 

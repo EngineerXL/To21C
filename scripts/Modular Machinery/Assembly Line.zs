@@ -268,4 +268,16 @@ diode.addItemInput(<techreborn:cable:4>*64);
 diode.addItemOutput(<environmentaltech:diode>);
 diode.build();
 
+// Wyvern core \\
+var wyverncore = RecipeBuilder.newBuilder("wyverncore", "assembly_line", 600);
+
+wyverncore.addEnergyPerTickInput(8192);
+wyverncore.addItemInput(<draconicevolution:draconic_core>*4);
+wyverncore.addItemInput(<minecraft:nether_star>);
+wyverncore.addItemInput(<jaopca:item_stickdraconium>*8);
+wyverncore.addItemInput(<contenttweaker:ultradensealloyplate>*2); 
+wyverncore.addItemInput(<thaumcraft:plate:3>*2); 
+wyverncore.addItemOutput(<draconicevolution:wyvern_core>);
+wyverncore.build();
+
 print("Assembly Line.zs is loaded.");

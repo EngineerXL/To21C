@@ -87,7 +87,7 @@
 					},
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"metadata": 2,
+						"metadata": 4,
 						"weight": 25
 					}
 				],
@@ -100,6 +100,30 @@
         "chunk-chance": 213,
         "min-height": 60,
 		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+		    }
+		},
+		
+		"draconium_nether": {
+	    "enabled" = true,
+        "distribution": "uniform",
+			"generator": {
+			"block": "draconicevolution:draconium_ore",
+            "material": "minecraft:netherrack",
+            "cluster-size": 210,
+            "type": "large-vein",
+            "sparse": false
+        },
+        "cluster-count": 1,
+        "chunk-chance": 2560,
+        "min-height": 5,
+		"max-height": 40,
         "retrogen": false,
 		"biome": "all",
 		"dimension": {

@@ -13,6 +13,7 @@ import mods.contenttweaker.Item;
 print("ContentTweaker.zs starts to load.");
 
 var customitems = [
+"hotdraconiumingot",
 "moondust",
 "wiringlv",
 "wiringmv",
@@ -90,7 +91,9 @@ var customitems = [
 "slsteelhull",
 "icon",
 "ironring",
-"ironscrew"
+"ironscrew",
+"thaumiumhull",
+"compressedvoidmetal"
 ] as string[];
 
 for i in customitems {VanillaFactory.createItem(i).register();}

@@ -20,7 +20,7 @@ recipes.remove(<immersiveengineering:metal_decoration0:4>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:4>, [[<immersiveengineering:material:8>, <thermalfoundation:material:320>, <immersiveengineering:material:8>], [<immersiveengineering:material:1>, <immersiveengineering:tool>.transformDamage(), <immersiveengineering:material:1>], [<immersiveengineering:material:8>, <thermalfoundation:material:320>, <immersiveengineering:material:8>]]);
 
 // Iron ring \\
-recipes.addShapeless(<contenttweaker:ironring>, [<thermalfoundation:material:32>, <immersiveengineering:tool:1>.transformDamage(), <contenttweaker:file>.anyDamage().transformDamage()]);
+recipes.addShapeless(<contenttweaker:ironring>, [<thermalfoundation:material:32>, <immersiveengineering:tool:1>, <contenttweaker:file>.anyDamage().transformDamage()]);
 
 // Iron screw \\
 recipes.addShapeless(<contenttweaker:ironscrew>, [<minecraft:iron_nugget>, <contenttweaker:file>.anyDamage().transformDamage()]);

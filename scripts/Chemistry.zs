@@ -10,7 +10,7 @@ print("Chemistry.zs starts to load.");
 
 var dict = { 
 "Al" : [<thermalfoundation:material:132>, <thermalfoundation:material:68>, <thermalfoundation:material:196>, <thermalfoundation:material:260>, <thermalfoundation:material:324>, <immersiveengineering:material:3>, <jaopca:item_dustdirtyaluminium>, <jaopca:item_clumpaluminium>, <jaopca:item_shardaluminium>, <jaopca:item_crystalaluminium>, <techreborn:smalldust:1>, <jaopca:item_dusttinyaluminium>, <galacticraftcore:basic_item:8>, <immersiveengineering:material:22>],
-"C" : [<techreborn:dust:3>, <techreborn:dust:15>, <techreborn:smalldust:3>, <techreborn:smalldust:15>, <thermalfoundation:material:802>, <immersiveengineering:material:17>, <mekanism:compressedcarbon>, <mekanism:compresseddiamond>, <minecraft:coal>, <minecraft:coal:1>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:11>, <immersiveengineering:material:6>, <jaopca:item_nuggetcoal>, <jaopca:item_gearcoal>, <jaopca:item_stickcoal>, <jaopca:item_dusttinycoal>, <techreborn:smalldust:9>, <techreborn:smalldust:13>, <thermalfoundation:material:768>, <thermalfoundation:material:769>, <minecraft:diamond>, <teslacorelib:gear_diamond>, <jaopca:item_stickdiamond>, <jaopca:item_dusttinydiamond>, <mekanism:otherdust>, <techreborn:smalldust:16>, <techreborn:plates:5>, <thermalfoundation:material:16>],
+"C" : [<techreborn:dust:3>, <techreborn:dust:15>, <techreborn:smalldust:3>, <techreborn:smalldust:15>, <thermalfoundation:material:802>, <immersiveengineering:material:17>, <mekanism:compressedcarbon>, <mekanism:compresseddiamond>, <minecraft:coal>, <minecraft:coal:1>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:11>, <immersiveengineering:material:6>, <jaopca:item_nuggetcoal>, <jaopca:item_gearcoal>, <jaopca:item_stickcoal>, <jaopca:item_dusttinycoal>, <techreborn:smalldust:9>, <techreborn:smalldust:13>, <thermalfoundation:material:768>, <thermalfoundation:material:769>, <minecraft:diamond>, <thermalfoundation:material:26>, <jaopca:item_stickdiamond>, <jaopca:item_dusttinydiamond>, <mekanism:otherdust>, <techreborn:smalldust:16>, <techreborn:plates:5>, <thermalfoundation:material:16>],
 "Au" : [<minecraft:gold_ingot>, <minecraft:gold_nugget>, <jaopca:item_stickgold>, <jaopca:item_dusttinygold>, <mekanism:clump:1>, <mekanism:dirtydust:1>, <mekanism:shard:1>, <mekanism:crystal:1>, <techreborn:smalldust:24>, <thermalfoundation:material:1>, <thermalfoundation:material:25>, <thermalfoundation:material:33>],
 "Au+" : [<calculator:enrichedgold>, <calculator:enrichedgoldingot>],
 "AgAu" : [<techreborn:smalldust:17>, <thermalfoundation:material:97>, <thermalfoundation:material:161>, <thermalfoundation:material:225>, <thermalfoundation:material:289>, <thermalfoundation:material:353>, <immersiveengineering:material:21>],
@@ -37,7 +37,7 @@ var dict = {
 "Ag" : [<jaopca:item_sticksilver>, <jaopca:item_dusttinysilver>, <mekanism:clump:5>, <mekanism:dirtydust:5>, <mekanism:shard:5>, <mekanism:crystal:5>, <techreborn:smalldust:47>, <thermalfoundation:material:66>, <thermalfoundation:material:130>, <thermalfoundation:material:194>, <thermalfoundation:material:258>, <thermalfoundation:material:322>],
 "Ni" : [<jaopca:item_sticknickel>, <jaopca:item_dusttinynickel>, <jaopca:item_dustdirtynickel>, <jaopca:item_clumpnickel>, <jaopca:item_shardnickel>, <jaopca:item_crystalnickel>, <techreborn:smalldust:34>, <thermalfoundation:material:69>, <thermalfoundation:material:133>, <thermalfoundation:material:197>, <thermalfoundation:material:261>, <thermalfoundation:material:325>],
 "Fe2Ni" : [<techreborn:smalldust:26>, <thermalfoundation:material:98>, <thermalfoundation:material:162>, <thermalfoundation:material:226>, <thermalfoundation:material:290>, <thermalfoundation:material:354>],
-"Be3Al2Si6O18" : [<minecraft:emerald>, <jaopca:item_gearemerald>, <jaopca:item_stickemerald>, <jaopca:item_dusttinyemerald>, <techreborn:dust:18>, <techreborn:smalldust:18>, <techreborn:plates:6>, <thermalfoundation:material:17>],
+"Be3Al2Si6O18" : [<minecraft:emerald>, <thermalfoundation:material:27>, <jaopca:item_stickemerald>, <jaopca:item_dusttinyemerald>, <techreborn:dust:18>, <techreborn:smalldust:18>, <techreborn:plates:6>, <thermalfoundation:material:17>],
 "CuNi" : [<thermalfoundation:material:100>, <thermalfoundation:material:164>, <thermalfoundation:material:228>, <thermalfoundation:material:292>, <thermalfoundation:material:356>],
 "AgCu3(Si(FeS2)5CrAl2O3Hg3)10" : [<enderio:item_material:57>, <thermalfoundation:material:101>, <thermalfoundation:material:165>, <thermalfoundation:material:229>, <thermalfoundation:material:293>, <thermalfoundation:material:357>],
 "AgSn3(HeS2(Si(FeS2)5CrAl2O3Hg3)2)4" : [<enderio:item_material:59>, <thermalfoundation:material:102>, <thermalfoundation:material:166>, <thermalfoundation:material:230>, <thermalfoundation:material:294>, <thermalfoundation:material:358>],
@@ -64,7 +64,7 @@ var dict = {
 "C-" : [<calculator:weakeneddiamond>],
 "(SiO2)4Fe" : [<calculator:largeamethyst>, <calculator:smallamethyst>, <calculator:shardamethyst>],
 "Ca2Al3Si3HO13" : [<calculator:largetanzanite>, <calculator:smalltanzanite>, <calculator:shardtanzanite>],
-"SiO2" : [<techreborn:dust:22>, <techreborn:smalldust:22>, <minecraft:flint>, <minecraft:quartz>, <appliedenergistics2:material>, <appliedenergistics2:material:2>, <jaopca:item_nuggetquartz>, <jaopca:item_gearquartz>, <jaopca:item_platequartz>, <jaopca:item_stickquartz>, <jaopca:item_dusttinyquartz>, <jaopca:item_dustsmallquartz>],
+"SiO2" : [<techreborn:dust:22>, <techreborn:smalldust:22>, <minecraft:flint>, <minecraft:quartz>, <appliedenergistics2:material>, <appliedenergistics2:material:2>, <jaopca:item_gearquartz>, <jaopca:item_platequartz>, <jaopca:item_stickquartz>, <jaopca:item_dusttinyquartz>, <jaopca:item_dustsmallquartz>],
 "(SiO2)+" : [<appliedenergistics2:material:1>],
 "Si+O2" : [<actuallyadditions:item_misc:5>, <jaopca:item_nuggetquartzblack>, <jaopca:item_gearquartzblack>, <jaopca:item_platequartzblack>, <jaopca:item_stickquartzblack>, <jaopca:item_dusttinyquartzblack>, <jaopca:item_dustsmallquartzblack>],
 "Na2LiAl2Si2" : [<minecraft:clay_ball>, <techreborn:dust:12>, <techreborn:smalldust:12>],
@@ -120,7 +120,9 @@ var dict = {
 "(Si(FeS2)5CrAl2O3Hg3)2BeK4N5Ma6S2Ma" : [<extrautils2:ingredients>],
 "C(Al6Si6Ca8Na8Ma4)8Ma6" : [<extrautils2:ingredients:5>],
 "Al2Mg" : [<contenttweaker:magnaliumingot>, <techreborn:plates:36>],
-"Ni3AlCrMn" : [<contenttweaker:slsteeldust>, <contenttweaker:slsteelplate>, <modularmachinery:itemmodularium>]
+"Ni3AlCrMn" : [<contenttweaker:slsteeldust>, <contenttweaker:slsteelplate>, <modularmachinery:itemmodularium>],
+"FeMa" : [<thaumcraft:ingot>, <thaumcraft:nugget:6>, <thaumcraft:plate:2>],
+"Fe?Ma2" : [<thaumcraft:ingot:1>, <thaumcraft:nugget:7>, <thaumcraft:plate:3>, <contenttweaker:compressedvoidmetal>]
 } as IItemStack[][string];
 
 for a in dict {

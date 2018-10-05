@@ -1,6 +1,223 @@
 {
 	"populate": {
+
+        "cobblestone": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+			"block": "minecraft:cobblestone",
+            "material": "minecraft:stone",
+            "cluster-size": 190,
+            "type": "large-vein",
+            "sparse": false
+        },
+        "cluster-count": 1,
+        "chunk-chance": 20,
+        "min-height": 25,
+		"max-height": 140,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+		    }
+		},
 	
+        "granite": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+				{
+				"name": "minecraft:stone",
+				"metadata": 1
+				}
+				],
+            "material": "minecraft:stone",
+            "cluster-size": 190,
+            "type": "large-vein",
+            "sparse": false
+        },
+        "cluster-count": 1,
+        "chunk-chance": 50,
+        "min-height": 5,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+		    }
+		},
+		
+        "diorite": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+				{
+				"name": "minecraft:stone",
+				"metadata": 3
+				}
+				],
+            "material": "minecraft:stone",
+            "cluster-size": 190,
+            "type": "large-vein",
+            "sparse": false
+        },
+        "cluster-count": 1,
+        "chunk-chance": 50,
+        "min-height": 5,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+		    }
+		},
+		
+		"andesite": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+				{
+				"name": "minecraft:stone",
+				"metadata": 5
+				}
+				],
+            "material": "minecraft:stone",
+            "cluster-size": 190,
+            "type": "large-vein",
+            "sparse": false
+        },
+        "cluster-count": 1,
+        "chunk-chance": 50,
+        "min-height": 5,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+		    }
+		},
+		
+		"limestone": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+				{
+				"name": "chisel:limestone2",
+				"metadata": 7
+				}
+				],
+            "material": "minecraft:stone",
+            "cluster-size": 190,
+            "type": "large-vein",
+            "sparse": false
+        },
+        "cluster-count": 1,
+        "chunk-chance": 50,
+        "min-height": 5,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+		    }
+		},
+		
+		"marble": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+				"block": [
+				{
+				"name": "chisel:marble2",
+				"metadata": 7
+				}
+				],
+            "material": "minecraft:stone",
+            "cluster-size": 190,
+            "type": "large-vein",
+            "sparse": false
+        },
+        "cluster-count": 1,
+        "chunk-chance": 50,
+        "min-height": 5,
+		"max-height": 120,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+		    }
+		},
+		
+        "gravel": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+			"block": "minecraft:gravel",
+            "material": "minecraft:stone",
+            "cluster-size": 190,
+            "type": "large-vein",
+            "sparse": false
+        },
+        "cluster-count": 1,
+        "chunk-chance": 60,
+        "min-height": 40,
+		"max-height": 160,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+		    }
+		},
+		
+		"clay": {
+	    "enabled" = true,
+        "distribution": "uniform",
+        "generator": {
+			"block": "minecraft:clay",
+            "material": "minecraft:stone",
+            "cluster-size": 190,
+            "type": "large-vein",
+            "sparse": false
+        },
+        "cluster-count": 1,
+        "chunk-chance": 60,
+        "min-height": 10,
+		"max-height": 110,
+        "retrogen": false,
+		"biome": "all",
+		"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+		    }
+		},
+		
         "coal_high": {
 	    "enabled" = true,
         "distribution": "uniform",

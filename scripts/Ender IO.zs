@@ -25,7 +25,13 @@ recipes.addShapeless(<enderio:item_material:11>, [<thermalfoundation:material:24
 recipes.remove(<enderio:item_me_conduit>);
 recipes.addShapeless(<enderio:item_me_conduit>, [<enderio:item_material:4>, <appliedenergistics2:part:36>, <enderio:item_material:4>]);
 
+// Powered spawner \\
+recipes.remove(<enderio:block_powered_spawner>);
+
 // Simplre machine chassis \\
 recipes.remove(<enderio:item_material>);
+
+// Soul binder \\
+recipes.remove(<enderio:block_soul_binder>);
 
 print("Ender IO.zs is loaded.");

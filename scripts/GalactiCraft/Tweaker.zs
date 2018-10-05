@@ -51,10 +51,14 @@ mods.GalacticraftTweaker.addCompressorShapelessRecipe(<contenttweaker:heavyduty1
 // Heavy-duty tier 2 \\
 mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_mars:3>);
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<contenttweaker:heavyduty2>, <galacticraftcore:basic_item:8>, <galacticraftcore:item_basic_moon:1>, <contenttweaker:compresseddarksteel>);
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<contenttweaker:heavyduty2>, <galacticraftcore:basic_item:8>, <contenttweaker:compressedvoidmetal>, <contenttweaker:compresseddarksteel>);
 
 // Heavy-duty tier 3 \\
 mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_asteroids:5>);
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<contenttweaker:heavyduty3>, <galacticraftcore:basic_item:8>, <contenttweaker:compressedosmium>, <contenttweaker:compressedmithril>);
+
+// Compressed void metal \\
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<contenttweaker:compressedvoidmetal>, <thaumcraft:ingot:1>, <thaumcraft:ingot:1>);
 
 // Solar wafer \\
 mods.GalacticraftTweaker.removeCircuitFabricatorRecipe(<galacticraftcore:basic_item:12>*9);

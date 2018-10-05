@@ -9,6 +9,11 @@ print("Blast Furnace.zs starts to load.");
 // Hot desh ingot \\
 blastFurnace.addRecipe(<contenttweaker:hotdeshingot>, null, <contenttweaker:deshdust>, null, 1600, 128, 2800);
 
+// Hot draconium ingot \\
+blastFurnace.addRecipe(<contenttweaker:hotdraconiumingot>, null, <draconicevolution:draconium_dust>, null, 1000, 128, 3200);
+blastFurnace.addRecipe(<contenttweaker:hotdraconiumingot>, null, <jaopca:item_dusttinydraconium>*9, null, 1000, 128, 3200);
+blastFurnace.addRecipe(<contenttweaker:hotdraconiumingot>, null, <jaopca:item_dustsmalldraconium>*4, null, 1000, 128, 3200);
+
 // Hot osmium ingot \\
 blastFurnace.addRecipe(<contenttweaker:hotosmiumingot>, null, <mekanism:dust:2>, null, 1200, 128, 3000);
 blastFurnace.addRecipe(<contenttweaker:hotosmiumingot>, null, <jaopca:item_dusttinyosmium>*9, null, 1200, 128, 3000);

@@ -24,6 +24,7 @@ recipes.addShaped(<actuallyadditions:block_display_stand>, [[null, <actuallyaddi
 // Empowerer \\
 recipes.remove(<actuallyadditions:block_empowerer>);
 recipes.addShaped(<actuallyadditions:block_empowerer>, [[null, <actuallyadditions:item_misc:8>], [<techreborn:part:29>, <actuallyadditions:item_battery_double>, <techreborn:part:29>], [<contenttweaker:steelhull>, <actuallyadditions:block_display_stand>, <contenttweaker:steelhull>]]);
+recipes.addShaped(<actuallyadditions:block_empowerer>, [[null, <actuallyadditions:item_misc:8>], [<techreborn:part:29>, <actuallyadditions:item_battery_double>, <techreborn:part:29>], [<contenttweaker:thaumiumhull>, <actuallyadditions:block_display_stand>, <contenttweaker:thaumiumhull>]]);
 
 // Empty cup \\
 recipes.remove(<actuallyadditions:item_misc:14>);
