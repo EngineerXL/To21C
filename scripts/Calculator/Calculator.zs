@@ -27,6 +27,15 @@ recipes.addShaped(<calculator:extractionchamber>, [[<techreborn:part:1>, <actual
 recipes.remove(<calculator:powercube>);
 recipes.addShaped(<calculator:powercube>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <actuallyadditions:item_crystal>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 
+// Reinforced tools (aka Flint tools) \\
+recipes.addShaped(<calculator:reinforcedsword>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], display: {Name: "Flint Sword"}}), [[<minecraft:flint>], [<minecraft:flint>], [<ore:stickWood>]]);
+recipes.addShaped(<calculator:reinforcedpickaxe>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], display: {Name: "Flint Pickaxe"}}), [[<minecraft:flint>, <minecraft:flint>, <minecraft:flint>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<calculator:reinforcedaxe>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], display: {Name: "Flint Axe"}}), [[<minecraft:flint>, <minecraft:flint>], [<minecraft:flint>, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<calculator:reinforcedaxe>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], display: {Name: "Flint Axe"}}), [[null, <minecraft:flint>, <minecraft:flint>], [null, <ore:stickWood>, <minecraft:flint>], [null, <ore:stickWood>]]);
+recipes.addShaped(<calculator:reinforcedshovel>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], display: {Name: "Flint Shovel"}}), [[null, <minecraft:flint>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<calculator:reinforcedhoe>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], display: {Name: "Flint Hoe"}}), [[<minecraft:flint>, <minecraft:flint>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<calculator:reinforcedhoe>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], display: {Name: "Flint Hoe"}}), [[null, <minecraft:flint>, <minecraft:flint>], [null, <ore:stickWood>], [null, <ore:stickWood>]]);
+
 // Stone separator \\
 recipes.remove(<calculator:stoneseparator>);
 recipes.addShaped(<calculator:stoneseparator>, [[<techreborn:part:29>, <calculator:material:3>, <techreborn:part:29>], [<calculator:powercube>, <techreborn:machine_frame>, <calculator:powercube>], [<techreborn:part:29>, <calculator:material:3>, <techreborn:part:29>]]);

@@ -8,6 +8,10 @@ print("Immersive Engineering.zs starts to load.");
 recipes.remove(<immersiveengineering:stone_decoration:1>);
 recipes.addShaped(<immersiveengineering:stone_decoration:1>*3, [[<thermalfoundation:material:355>, <minecraft:brick>, <thermalfoundation:material:355>], [<minecraft:brick>, <minecraft:clay>, <minecraft:brick>], [<thermalfoundation:material:355>, <minecraft:brick>, <thermalfoundation:material:355>]]);
 
+// Blueprint: crafting components \\
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "components"}), [[<thermalfoundation:material:128>, <thermalfoundation:material:134>, <minecraft:iron_ingot>], [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+
 // Engineer's file \\
 recipes.addShaped(<contenttweaker:file>, [[<thermalfoundation:material:32>], [<thermalfoundation:material:32>], [<ore:stickWood>]]);
 
