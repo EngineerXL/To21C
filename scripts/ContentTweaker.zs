@@ -134,7 +134,7 @@ mooniron.register();
 var moonbauxite = VanillaFactory.createBlock("moonbauxite", <blockmaterial:iron>);
 moonbauxite.setBlockHardness(4.0);
 moonbauxite.setToolClass("pickaxe");
-moonbauxite.setToolLevel(2);
+moonbauxite.setToolLevel(3);
 moonbauxite.setBlockSoundType(<soundtype:stone>);
 moonbauxite.register();
 
@@ -148,7 +148,7 @@ moonilmenite.register();
 var marsosmium = VanillaFactory.createBlock("marsosmium", <blockmaterial:iron>);
 marsosmium.setBlockHardness(4.0);
 marsosmium.setToolClass("pickaxe");
-marsosmium.setToolLevel(1);
+marsosmium.setToolLevel(3);
 marsosmium.setBlockSoundType(<soundtype:stone>);
 marsosmium.register();
 
@@ -162,7 +162,7 @@ marsiridium.register();
 var marsbauxite = VanillaFactory.createBlock("marsbauxite", <blockmaterial:iron>);
 marsbauxite.setBlockHardness(4.0);
 marsbauxite.setToolClass("pickaxe");
-marsbauxite.setToolLevel(2);
+marsbauxite.setToolLevel(3);
 marsbauxite.setBlockSoundType(<soundtype:stone>);
 marsbauxite.register();
 
@@ -176,7 +176,7 @@ marsilmenite.register();
 var marsnickel = VanillaFactory.createBlock("marsnickel", <blockmaterial:iron>);
 marsnickel.setBlockHardness(4.0);
 marsnickel.setToolClass("pickaxe");
-marsnickel.setToolLevel(2);
+marsnickel.setToolLevel(3);
 marsnickel.setBlockSoundType(<soundtype:stone>);
 marsnickel.register();
 
@@ -190,7 +190,7 @@ venusilmenite.register();
 var venusosmium = VanillaFactory.createBlock("venusosmium", <blockmaterial:iron>);
 venusosmium.setBlockHardness(4.0);
 venusosmium.setToolClass("pickaxe");
-venusosmium.setToolLevel(1);
+venusosmium.setToolLevel(3);
 venusosmium.setBlockSoundType(<soundtype:stone>);
 venusosmium.register();
 
@@ -211,14 +211,14 @@ venusiron.register();
 var venusnickel = VanillaFactory.createBlock("venusnickel", <blockmaterial:iron>);
 venusnickel.setBlockHardness(4.0);
 venusnickel.setToolClass("pickaxe");
-venusnickel.setToolLevel(2);
+venusnickel.setToolLevel(3);
 venusnickel.setBlockSoundType(<soundtype:stone>);
 venusnickel.register();
 
 var fusioncoil = VanillaFactory.createBlock("fusioncoil", <blockmaterial:iron>);
 fusioncoil.setBlockHardness(4.0);
 fusioncoil.setToolClass("pickaxe");
-fusioncoil.setToolLevel(1);
+fusioncoil.setToolLevel(2);
 fusioncoil.setBlockSoundType(<soundtype:metal>);
 fusioncoil.register();
 

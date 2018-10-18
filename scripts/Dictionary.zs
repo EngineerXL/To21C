@@ -77,6 +77,13 @@ recipes.addShapeless(<thermalfoundation:material:70>*2, [<contenttweaker:moonpla
 <ore:oreLead>.remove(<galacticraftplanets:venus:8>);
 <ore:oreGalena>.add(<galacticraftplanets:venus:8>);
 
+// Gears \\
+recipes.remove(<ore:gearWood>);
+recipes.remove(<ore:gearStone>);
+recipes.addShaped(<thermalfoundation:material:22>, [[null, <ore:stickWood>], [<ore:stickWood>, null, <ore:stickWood>], [null, <ore:stickWood>]]);
+recipes.addShaped(<thermalfoundation:material:23>, [[null, <ore:cobblestone>], [<ore:cobblestone>, <thermalfoundation:material:22>, <ore:cobblestone>], [null, <ore:cobblestone>]]);
+recipes.addShaped(<thermalfoundation:material:23>, [[<ore:stickWood>, <ore:cobblestone>, <ore:stickWood>], [<ore:cobblestone>, null, <ore:cobblestone>], [<ore:stickWood>, <ore:cobblestone>, <ore:stickWood>]]);
+
 // Lazurite (lapis) dust \\
 <ore:dustLapis>.add(<techreborn:dust:28>);
 <ore:dustLazurite>.remove(<techreborn:dust:28>);

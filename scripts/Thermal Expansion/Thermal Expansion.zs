@@ -65,7 +65,7 @@ recipes.addShaped(<thermalfoundation:material:513>, [[null, <thermalfoundation:m
 
 // Redstone servo \\
 recipes.remove(<thermalfoundation:material:512>);
-recipes.addShaped(<thermalfoundation:material:512>, [[<immersiveengineering:material:1>, null, <immersiveengineering:material:1>], [<minecraft:redstone>, <enderio:item_material:10>, <minecraft:redstone>], [<immersiveengineering:material:1>, null, <immersiveengineering:material:1>]]);
+recipes.addShaped(<thermalfoundation:material:512>, [[<immersiveengineering:material:1>, null, <immersiveengineering:material:1>], [<minecraft:redstone>, <thermalfoundation:material:23>, <minecraft:redstone>], [<immersiveengineering:material:1>, null, <immersiveengineering:material:1>]]);
 
 // Sawdust \\
 recipes.remove(<techreborn:smalldust:46>);
