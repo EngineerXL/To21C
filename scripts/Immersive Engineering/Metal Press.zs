@@ -18,6 +18,9 @@ MetalPress.addRecipe(<contenttweaker:certusquartzplate>, <appliedenergistics2:ma
 // Black iron plate \\
 MetalPress.addRecipe(<extendedcrafting:material:2>, <extendedcrafting:material>, <immersiveengineering:mold>, 2400);
 
+// Iron alloy plate \\
+MetalPress.addRecipe(<contenttweaker:ironalloyplate>, <enderio:item_alloy_ingot:9>, <immersiveengineering:mold>, 2400);
+
 // Magnalium plate \\
 MetalPress.addRecipe(<techreborn:plates:36>, <contenttweaker:magnaliumingot>, <immersiveengineering:mold>, 2400);
 

@@ -30,6 +30,9 @@ recipes.addShaped(<techreborn:assembly_machine>, [[<techreborn:part:29>, <minecr
 // Basic machine casing \\
 recipes.remove(<techreborn:machine_casing>);
 recipes.addShaped(<techreborn:machine_casing>*2, [[<techreborn:plates:34>, <techreborn:plates:34>, <techreborn:plates:34>], [<techreborn:part:29>, <contenttweaker:refinedironhull>, <techreborn:part:29>], [<techreborn:plates:34>, <techreborn:plates:34>, <techreborn:plates:34>]]);
+recipes.addShaped(<techreborn:machine_casing>*2, [[<techreborn:plates:34>, <techreborn:plates:34>, <techreborn:plates:34>], [<techreborn:part:29>, <contenttweaker:ironalloyhull>, <techreborn:part:29>], [<techreborn:plates:34>, <techreborn:plates:34>, <techreborn:plates:34>]]);
+recipes.addShaped(<techreborn:machine_casing>*2, [[<contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>], [<techreborn:part:29>, <contenttweaker:refinedironhull>, <techreborn:part:29>], [<contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>]]);
+recipes.addShaped(<techreborn:machine_casing>*2, [[<contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>], [<techreborn:part:29>, <contenttweaker:ironalloyhull>, <techreborn:part:29>], [<contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>]]);
 
 // Basic machine frame \\
 recipes.remove(<techreborn:machine_frame>);
@@ -53,9 +56,11 @@ recipes.remove(<techreborn:part:5>);
 recipes.addShaped(<techreborn:part:5>, [[<mekanism:otherdust>, <thermalfoundation:material:352>, <mekanism:otherdust>], [<thermalfoundation:material:352>, null, <thermalfoundation:material:352>], [<mekanism:otherdust>, <thermalfoundation:material:352>, <mekanism:otherdust>]]);
 
 // Electronic circuit \\
-recipes.remove(<techreborn:part:29>);
+recipes.remove(<techreborn:part:29>); 
 recipes.addShaped(<techreborn:part:29>, [[<techreborn:cable:5>, <techreborn:cable:5>, <techreborn:cable:5>], [<actuallyadditions:item_crystal>, <techreborn:plates:34>, <actuallyadditions:item_crystal>], [<techreborn:cable:5>, <techreborn:cable:5>, <techreborn:cable:5>]]);
 recipes.addShaped(<techreborn:part:29>, [[<techreborn:cable:5>, <actuallyadditions:item_crystal>, <techreborn:cable:5>], [<techreborn:cable:5>, <techreborn:plates:34>, <techreborn:cable:5>], [<techreborn:cable:5>, <actuallyadditions:item_crystal>, <techreborn:cable:5>]]);
+recipes.addShaped(<techreborn:part:29>, [[<techreborn:cable:5>, <techreborn:cable:5>, <techreborn:cable:5>], [<actuallyadditions:item_crystal>, <contenttweaker:ironalloyplate>, <actuallyadditions:item_crystal>], [<techreborn:cable:5>, <techreborn:cable:5>, <techreborn:cable:5>]]);
+recipes.addShaped(<techreborn:part:29>, [[<techreborn:cable:5>, <actuallyadditions:item_crystal>, <techreborn:cable:5>], [<techreborn:cable:5>, <contenttweaker:ironalloyplate>, <techreborn:cable:5>], [<techreborn:cable:5>, <actuallyadditions:item_crystal>, <techreborn:cable:5>]]);
 
 // Empty cell \\
 recipes.remove(<techreborn:dynamiccell>);
@@ -109,6 +114,8 @@ recipes.addShaped(<techreborn:grinder>, [[<minecraft:flint>, <minecraft:flint>, 
 recipes.remove(<techreborn:ingot:21>);
 recipes.addShaped(<techreborn:ingot:21>, [[<techreborn:plates:34>], [<techreborn:plates:17>], [<thermalfoundation:material:321>]]);
 recipes.addShaped(<techreborn:ingot:21>, [[<techreborn:plates:34>], [<techreborn:plates:17>], [<thermalfoundation:material:324>]]);
+recipes.addShaped(<techreborn:ingot:21>, [[<contenttweaker:ironalloyplate>], [<techreborn:plates:17>], [<thermalfoundation:material:321>]]);
+recipes.addShaped(<techreborn:ingot:21>, [[<contenttweaker:ironalloyplate>], [<techreborn:plates:17>], [<thermalfoundation:material:324>]]);
 recipes.addShaped(<techreborn:ingot:21>, [[<thermalfoundation:material:325>], [<techreborn:plates:17>], [<thermalfoundation:material:321>]]);
 recipes.addShaped(<techreborn:ingot:21>, [[<thermalfoundation:material:325>], [<techreborn:plates:17>], [<thermalfoundation:material:324>]]);
 recipes.addShaped(<techreborn:ingot:21>*2, [[<thaumcraft:plate:2>], [<techreborn:plates:17>], [<thermalfoundation:material:321>]]);

@@ -12,5 +12,6 @@ Resonator.add(<extrautils2:ingredients:4>, <immersiveengineering:material:6>, 50
 
 // Black iron ingot \\
 Resonator.add(<extendedcrafting:material>, <minecraft:iron_ingot>, 500);
+Resonator.add(<extendedcrafting:material>, <enderio:item_alloy_ingot:9>, 500);
 
 print("Resonator.zs is loaded.");

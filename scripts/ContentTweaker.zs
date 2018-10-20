@@ -13,6 +13,8 @@ import mods.contenttweaker.Item;
 print("ContentTweaker.zs starts to load.");
 
 var customitems = [
+"ironalloyhull",
+"ironalloyplate",
 "hotdraconiumingot",
 "moondust",
 "wiringlv",

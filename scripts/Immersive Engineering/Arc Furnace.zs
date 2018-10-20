@@ -17,7 +17,17 @@ ArcFurnace.addRecipe(<enderio:item_alloy_ingot>, <ore:dustIron>, null, 200, 512,
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6>, <ore:dustIron>, null, 200, 512, [<ore:obsidian>, <ore:dustCoal>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:7>, <minecraft:gold_ingot>, null, 200, 512, [<minecraft:soul_sand>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:6>, null, 200, 512, [<ore:obsidian>, <ore:endstone>], "Alloying");
-
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<thermalfoundation:material:128>, <thermalfoundation:material:128>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<thermalfoundation:material:129>, <thermalfoundation:material:129>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<thermalfoundation:material:130>, <thermalfoundation:material:130>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<thermalfoundation:material:131>, <thermalfoundation:material:131>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<thermalfoundation:material:132>, <thermalfoundation:material:132>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<thermalfoundation:material:133>, <thermalfoundation:material:133>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<thermalfoundation:material:134>, <thermalfoundation:material:134>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<techreborn:ingot:14>, <techreborn:ingot:14>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<techreborn:ingot:15>,<techreborn:ingot:15>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<techreborn:ingot:18>, <techreborn:ingot:18>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:9>*3, <minecraft:iron_ingot>, null, 200, 512, [<mekanism:ingot:1>, <mekanism:ingot:1>], "Alloying");
 // Iridium ingot \\
 ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
 

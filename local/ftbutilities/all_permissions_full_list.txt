@@ -1,4 +1,4 @@
-12281 nodes in total
+12283 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -7287,6 +7287,8 @@ ftbutilities.claims.item.contenttweaker.hottiberiumingot: ALL
 ftbutilities.claims.item.contenttweaker.hottitaniumingot: ALL
 ftbutilities.claims.item.contenttweaker.hottungsteningot: ALL
 ftbutilities.claims.item.contenttweaker.icon: ALL
+ftbutilities.claims.item.contenttweaker.ironalloyhull: ALL
+ftbutilities.claims.item.contenttweaker.ironalloyplate: ALL
 ftbutilities.claims.item.contenttweaker.ironhull: ALL
 ftbutilities.claims.item.contenttweaker.ironring: ALL
 ftbutilities.claims.item.contenttweaker.ironscrew: ALL

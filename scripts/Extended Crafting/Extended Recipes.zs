@@ -21,6 +21,7 @@ TableCrafting.addShaped(3, <galacticraftplanets:astro_miner>, [[<galacticraftpla
 
 // Basic machine frame \\
 TableCrafting.addShaped(1, <techreborn:machine_frame>, [[<techreborn:cable:5>, <contenttweaker:refinedironhull>, <techreborn:cable:5>], [<contenttweaker:refinedironrod>, <thermalfoundation:material:33>, <contenttweaker:refinedironrod>]]);
+TableCrafting.addShaped(1, <techreborn:machine_frame>, [[<techreborn:cable:5>, <contenttweaker:ironalloyhull>, <techreborn:cable:5>], [<contenttweaker:refinedironrod>, <thermalfoundation:material:33>, <contenttweaker:refinedironrod>]]);
 
 // Buggy \\
 #0
@@ -109,6 +110,7 @@ TableCrafting.addShaped(1, <enderio:item_material:1>, [[<techreborn:cable:4>, <c
 
 // Iron casing \\
 TableCrafting.addShaped(1, <actuallyadditions:block_misc:9>, [[<immersiveengineering:wirecoil:6>, <contenttweaker:ironhull>, <immersiveengineering:wirecoil:6>], [<jaopca:item_sticknickel>, <thermalfoundation:material:355>, <jaopca:item_sticknickel>]]);
+TableCrafting.addShaped(1, <actuallyadditions:block_misc:9>, [[<immersiveengineering:wirecoil:6>, <contenttweaker:ironalloyhull>, <immersiveengineering:wirecoil:6>], [<jaopca:item_sticknickel>, <thermalfoundation:material:355>, <jaopca:item_sticknickel>]]);
 
 // Machine case \\
 TableCrafting.addShaped(1, <teslacorelib:machine_case>, [[<industrialforegoing:plastic>, <contenttweaker:tinhull>, <industrialforegoing:plastic>], [<industrialforegoing:plastic>, <techreborn:plates:17>, <industrialforegoing:plastic>]]);

@@ -21,6 +21,9 @@ recipes.addShaped(<enderio:block_end_iron_bars>*16, [[<techreborn:wrench>.reuse(
 recipes.remove(<enderio:item_material:11>);
 recipes.addShapeless(<enderio:item_material:11>, [<thermalfoundation:material:24>, <enderio:item_material:20>, <enderio:item_material:20>]);
 
+// Iron alloy hull \\
+recipes.addShaped(<contenttweaker:ironalloyhull>, [[<contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>], [<contenttweaker:ironalloyplate>, null, <contenttweaker:ironalloyplate>], [<contenttweaker:ironalloyplate>, <contenttweaker:ironalloyplate>,<contenttweaker:ironalloyplate>]]);
+
 // ME conduit \\
 recipes.remove(<enderio:item_me_conduit>);
 recipes.addShapeless(<enderio:item_me_conduit>, [<enderio:item_material:4>, <appliedenergistics2:part:36>, <enderio:item_material:4>]);

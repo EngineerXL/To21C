@@ -4,6 +4,9 @@
 
 print("Aspects.zs starts to load.");
 
+// Iron alloy \\
+<enderio:item_alloy_ingot:9>.setAspects(<aspect:metallum>*15);
+
 // Peridot \\
 <techreborn:gem:2>.removeAspects(<aspect:potentia>);
 <techreborn:dust:36>.removeAspects(<aspect:potentia>);

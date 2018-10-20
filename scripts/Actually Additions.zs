@@ -20,6 +20,7 @@ recipes.remove(<actuallyadditions:block_coffee_machine>);
 // Display stand \\
 recipes.remove(<actuallyadditions:block_display_stand>);
 recipes.addShaped(<actuallyadditions:block_display_stand>, [[null, <actuallyadditions:item_misc:7>], [<actuallyadditions:block_testifi_bucks_green_wall>, <techreborn:part:29>, <actuallyadditions:block_testifi_bucks_green_wall>], [<actuallyadditions:block_testifi_bucks_white_wall>, <contenttweaker:refinedironhull>, <actuallyadditions:block_testifi_bucks_white_wall>]]);
+recipes.addShaped(<actuallyadditions:block_display_stand>, [[null, <actuallyadditions:item_misc:7>], [<actuallyadditions:block_testifi_bucks_green_wall>, <techreborn:part:29>, <actuallyadditions:block_testifi_bucks_green_wall>], [<actuallyadditions:block_testifi_bucks_white_wall>, <contenttweaker:ironalloyhull>, <actuallyadditions:block_testifi_bucks_white_wall>]]);
 
 // Empowerer \\
 recipes.remove(<actuallyadditions:block_empowerer>);
