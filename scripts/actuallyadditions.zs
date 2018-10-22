@@ -2,8 +2,6 @@
 
 // ** Actually Additions ** \\
 
-print("Actually Additions.zs starts to load.");
-
 // Advanced coil \\
 recipes.remove(<actuallyadditions:item_misc:8>);
 
@@ -44,5 +42,3 @@ recipes.addShapeless(<actuallyadditions:item_resonant_rice>, [<harvestcraft:rice
 
 // Ring \\
 recipes.remove(<actuallyadditions:item_misc:6>);
-
-print("Actually Additions.zs is loaded.");

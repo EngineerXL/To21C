@@ -5,8 +5,6 @@
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 
-print("Advanced Assembler.zs starts to load.");
-
 // Advanced wafer \\
 var advwafer = RecipeBuilder.newBuilder("advwafer", "adv_assembler", 40);
 
@@ -168,5 +166,3 @@ solarwafer.addItemInput(<techreborn:plates:4>*2);
 solarwafer.addItemInput(<enderio:item_material:3>);
 solarwafer.addItemOutput(<galacticraftcore:basic_item:12>*9);
 solarwafer.build();
-
-print("Advanced Assembler.zs is loaded.");
