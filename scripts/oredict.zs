@@ -2,10 +2,6 @@
 
 // ** Dictionary ** \\
 
-import crafttweaker.oredict.IOreDict;
-
-print("Dictionary.zs starts to load.");
-
 // Broccoli \\
 <ore:seedBroccoli>.add(<calculator:broccoliseeds>);
 furnace.remove(<calculator:cookedbroccoli>);
@@ -36,22 +32,22 @@ furnace.remove(<calculator:cookedbroccoli>);
 <ore:oreIron>.add(<contenttweaker:venusiron>);
 <ore:oreNickel>.add(<contenttweaker:venusnickel>);
 
-recipes.addShapeless(<techreborn:dust:54>*2, [<ore:oreTitanium>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<techreborn:dust:54> * 2, [<ore:oreTitanium>, <thermalfoundation:material:1027>]);
 furnace.addRecipe(<minecraft:iron_ingot>, <contenttweaker:mooniron>, 0.2);
 furnace.addRecipe(<minecraft:iron_ingot>, <contenttweaker:venusiron>, 0.2);
 furnace.addRecipe(<thermalfoundation:material:133>, <contenttweaker:venusnickel>, 1.0);
 furnace.addRecipe(<thermalfoundation:material:133>, <contenttweaker:marsnickel>, 1.0);
 furnace.addRecipe(<thermalfoundation:material:134>, <contenttweaker:moonplatinum>, 1.0);
-recipes.addShapeless(<thermalfoundation:material:71>*2, [<contenttweaker:mooniridium>, <thermalfoundation:material:1027>]);
-recipes.addShapeless(<thermalfoundation:material:71>*2, [<contenttweaker:marsiridium>, <thermalfoundation:material:1027>]);
-recipes.addShapeless(<thermalfoundation:material:71>*2, [<contenttweaker:venusiridium>, <thermalfoundation:material:1027>]);
-recipes.addShapeless(<mekanism:dust:2>*2, [<contenttweaker:venusosmium>, <thermalfoundation:material:1027>]);
-recipes.addShapeless(<mekanism:dust:2>*2, [<contenttweaker:marsosmium>, <thermalfoundation:material:1027>]);
-recipes.addShapeless(<thermalfoundation:material:69>*2, [<contenttweaker:marsnickel>, <thermalfoundation:material:1027>]);
-recipes.addShapeless(<thermalfoundation:material:69>*2, [<contenttweaker:venusnickel>, <thermalfoundation:material:1027>]);
-recipes.addShapeless(<thermalfoundation:material>*2, [<contenttweaker:mooniron>, <thermalfoundation:material:1027>]);
-recipes.addShapeless(<thermalfoundation:material>*2, [<contenttweaker:venusiron>, <thermalfoundation:material:1027>]);
-recipes.addShapeless(<thermalfoundation:material:70>*2, [<contenttweaker:moonplatinum>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<thermalfoundation:material:71> * 2, [<contenttweaker:mooniridium>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<thermalfoundation:material:71> * 2, [<contenttweaker:marsiridium>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<thermalfoundation:material:71> * 2, [<contenttweaker:venusiridium>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<mekanism:dust:2> * 2, [<contenttweaker:venusosmium>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<mekanism:dust:2> * 2, [<contenttweaker:marsosmium>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<thermalfoundation:material:69> * 2, [<contenttweaker:marsnickel>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<thermalfoundation:material:69> * 2, [<contenttweaker:venusnickel>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<thermalfoundation:material> * 2, [<contenttweaker:mooniron>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<thermalfoundation:material> * 2, [<contenttweaker:venusiron>, <thermalfoundation:material:1027>]);
+recipes.addShapeless(<thermalfoundation:material:70> * 2, [<contenttweaker:moonplatinum>, <thermalfoundation:material:1027>]);
 
 // Extra Bees products \\
 <ore:dustTinyCoal>.add(<extrabees:misc:18>);
@@ -116,11 +112,9 @@ recipes.addShaped(<thermalfoundation:material:23>, [[<ore:stickWood>, <ore:cobbl
 <ore:dustSmallSawDust>.add(<botany:misc:1>);
 
 // Stone \\
-recipes.addShapeless(<minecraft:stone>*2, [<ore:stone>, <ore:stone>]);
+recipes.addShapeless(<minecraft:stone> * 2, [<ore:stone>, <ore:stone>]);
 
 // Quicksilver \\
 furnace.remove(<thaumcraft:quicksilver>);
 furnace.addRecipe(<thaumcraft:quicksilver>, <techreborn:dust:11>);
-furnace.addRecipe(<thaumcraft:quicksilver>, <ore:oreCinnabar>);
-
-print("Dictionary.zs is loaded.");
+furnace.addRecipe(<thaumcraft:quicksilver>, <ore:oreCinnabar>); 

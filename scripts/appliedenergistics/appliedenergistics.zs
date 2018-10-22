@@ -2,8 +2,6 @@
 
 // ** Applied Energistics 2 ** \\
 
-print("Applied Energistics 2.zs starts to load.");
-
 // Blank pattern \\
 recipes.remove(<appliedenergistics2:material:52>);
 recipes.addShaped(<appliedenergistics2:material:52>, [[<appliedenergistics2:quartz_glass>, <genetics:misc:2>, <appliedenergistics2:quartz_glass>], [<genetics:misc:2>, <appliedenergistics2:material:10>, <genetics:misc:2>], [<contenttweaker:slsteelplate>, <contenttweaker:slsteelplate>, <contenttweaker:slsteelplate>]]);
@@ -40,6 +38,4 @@ recipes.remove(<appliedenergistics2:part:140>);
 
 // Storage housing \\
 recipes.remove(<appliedenergistics2:material:39>);
-recipes.addShaped(<appliedenergistics2:material:39>, [[<techreborn:reinforced_glass>, <galacticraftcore:basic_item:14>, <techreborn:reinforced_glass>], [<galacticraftcore:basic_item:14>, null, <galacticraftcore:basic_item:14>], [<contenttweaker:slsteelplate>, <contenttweaker:slsteelplate>, <contenttweaker:slsteelplate>]]);
-
-print("Applied Energistics 2.zs is loaded.");
+recipes.addShaped(<appliedenergistics2:material:39>, [[<techreborn:reinforced_glass>, <galacticraftcore:basic_item:14>, <techreborn:reinforced_glass>], [<galacticraftcore:basic_item:14>, null, <galacticraftcore:basic_item:14>], [<contenttweaker:slsteelplate>, <contenttweaker:slsteelplate>, <contenttweaker:slsteelplate>]]); 

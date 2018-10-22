@@ -4,8 +4,6 @@
 
 import mods.appliedenergistics2.Inscriber;
 
-print("Inscriber.zs starts to load.");
-
 // Pressed engineering circuit \\
 Inscriber.removeRecipe(<appliedenergistics2:material:17>);
 Inscriber.addRecipe(<appliedenergistics2:material:17>, <techreborn:plates:5>, true, <appliedenergistics2:material:14>);
@@ -25,6 +23,4 @@ Inscriber.addRecipe(<appliedenergistics2:material:20>, <contenttweaker:siliconpl
 // Processors \\
 Inscriber.removeRecipe(<appliedenergistics2:material:22>);
 Inscriber.removeRecipe(<appliedenergistics2:material:23>);
-Inscriber.removeRecipe(<appliedenergistics2:material:24>);
-
-print("Inscriber.zs is loaded.");
+Inscriber.removeRecipe(<appliedenergistics2:material:24>); 

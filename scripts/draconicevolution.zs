@@ -2,8 +2,6 @@
 
 // ** Draconic Evolution ** \\
 
-print("Draconic Evolution.zs starts to load.");
-
 // Draconic core \\
 recipes.remove(<draconicevolution:draconic_core>);
 
@@ -24,5 +22,3 @@ recipes.remove(<draconicevolution:wyvern_core>);
 
 // Wyvern energy core \\
 recipes.remove(<draconicevolution:wyvern_energy_core>);
-
-print("Draconic Evolution.zs is loaded.");

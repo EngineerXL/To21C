@@ -2,11 +2,9 @@
 
 // ** Ender IO ** \\
 
-print("Ender IO.zs starts to load.");
-
 // Dark steel bars \\
 recipes.remove(<enderio:block_dark_iron_bars>);
-recipes.addShaped(<enderio:block_dark_iron_bars>*16, [[<techreborn:wrench>.reuse(), null, <contenttweaker:file>.anyDamage().transformDamage()], [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>], [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>]]);
+recipes.addShaped(<enderio:block_dark_iron_bars> * 16, [[<techreborn:wrench>.reuse(), null, <contenttweaker:file>.anyDamage().transformDamage()], [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>], [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>]]);
 <enderio:block_dark_iron_bars>.displayName = "Dark Steel Bars";
 
 // Dense ME conduit \\
@@ -15,7 +13,7 @@ recipes.addShapeless(<enderio:item_me_conduit:1>, [<enderio:item_material:4>, <a
 
 // End steel bars \
 recipes.remove(<enderio:block_end_iron_bars>);
-recipes.addShaped(<enderio:block_end_iron_bars>*16, [[<techreborn:wrench>.reuse(), null, <contenttweaker:file>.anyDamage().transformDamage()], [<enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>], [<enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>]]);
+recipes.addShaped(<enderio:block_end_iron_bars> * 16, [[<techreborn:wrench>.reuse(), null, <contenttweaker:file>.anyDamage().transformDamage()], [<enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>], [<enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>]]);
 
 // Infinity gear \\
 recipes.remove(<enderio:item_material:11>);
@@ -35,6 +33,4 @@ recipes.remove(<enderio:block_powered_spawner>);
 recipes.remove(<enderio:item_material>);
 
 // Soul binder \\
-recipes.remove(<enderio:block_soul_binder>);
-
-print("Ender IO.zs is loaded.");
+recipes.remove(<enderio:block_soul_binder>); 
