@@ -1,4 +1,4 @@
-# Technologies of 21<sup>st</sup Century
+# Technologies of 21<sup>st</sup> Century
 
 ---
 
