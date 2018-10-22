@@ -2,8 +2,6 @@
 
 // ** Extended Crafting ** \\
 
-print("Extended Crafting.zs starts to load.");
-
 // Automation interface \\
 recipes.remove(<extendedcrafting:interface>);
 recipes.addShaped(<extendedcrafting:interface>, [[<extendedcrafting:material>, <appliedenergistics2:interface>, <extendedcrafting:material>], [<extendedcrafting:material:11>, <extendedcrafting:frame>, <extendedcrafting:material:11>], [<extendedcrafting:material>, <extendedcrafting:material:2>, <extendedcrafting:material>]]);
@@ -40,6 +38,4 @@ recipes.remove(<extendedcrafting:ender_crafter>);
 <extendedcrafting:material:41>.displayName = "Naquadah Star Nugget";
 
 // Quantum compressor \\
-recipes.remove(<extendedcrafting:compressor>);
-
-print("Extended Crafting.zs is loaded.");
+recipes.remove(<extendedcrafting:compressor>); 

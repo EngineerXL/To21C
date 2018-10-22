@@ -2,15 +2,13 @@
 
 // ** Metal Press ** \\
 
-import mods.immersiveengineering.MetalPress;
-
-print("Metal Press.zs starts to load.");
+import mods.immersiveengineering.MetalPress; 
 
 // Black quartz plate \\
 MetalPress.addRecipe(<jaopca:item_platequartzblack>, <actuallyadditions:item_misc:5>, <immersiveengineering:mold:1>, 2400);
 
 // Black quartz rod \\
-MetalPress.addRecipe(<jaopca:item_stickquartzblack>*2, <actuallyadditions:item_misc:5>, <immersiveengineering:mold:2>, 2400);
+MetalPress.addRecipe(<jaopca:item_stickquartzblack> * 2, <actuallyadditions:item_misc:5>, <immersiveengineering:mold:2>, 2400);
 
 // Certus quartz plate \\
 MetalPress.addRecipe(<contenttweaker:certusquartzplate>, <appliedenergistics2:material:10>, <immersiveengineering:mold:1>, 2400);
@@ -28,7 +26,7 @@ MetalPress.addRecipe(<techreborn:plates:36>, <contenttweaker:magnaliumingot>, <i
 MetalPress.addRecipe(<contenttweaker:slsteelplate>, <modularmachinery:itemmodularium>, <immersiveengineering:mold>, 2400);
 
 // Refined iron rod \\
-MetalPress.addRecipe(<contenttweaker:refinedironrod>*2, <techreborn:ingot:19>, <immersiveengineering:mold:2>, 2400);
+MetalPress.addRecipe(<contenttweaker:refinedironrod> * 2, <techreborn:ingot:19>, <immersiveengineering:mold:2>, 2400);
 
 // Reinforced iridium plate \\
 MetalPress.removeRecipe(<techreborn:plates:37>);
@@ -46,6 +44,4 @@ MetalPress.addRecipe(<contenttweaker:tiberiumplate>, <extendedcrafting:material:
 MetalPress.addRecipe(<contenttweaker:naquadahplate>, <contenttweaker:naquadahingot>, <immersiveengineering:mold>, 2400);
 
 // Desh rod \\
-MetalPress.addRecipe(<galacticraftplanets:item_basic_mars:1>*2, <galacticraftplanets:item_basic_mars:2>, <immersiveengineering:mold:2>, 2400);
-
-print("Metal Press.zs is loaded.");
+MetalPress.addRecipe(<galacticraftplanets:item_basic_mars:1> * 2, <galacticraftplanets:item_basic_mars:2>, <immersiveengineering:mold:2>, 2400); 

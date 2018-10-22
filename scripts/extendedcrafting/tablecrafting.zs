@@ -3,9 +3,7 @@
 // ** Extended Recipes ** \\
 
 import mods.extendedcrafting.TableCrafting;
-import mods.extendedcrafting.EnderCrafting;
-
-print("Extended Recipes.zs starts to load.");
+import mods.extendedcrafting.EnderCrafting; 
 
 // Advanced machine frame \\
 TableCrafting.addShaped(1, <techreborn:machine_frame:1>, [[<techreborn:cable:6>, <contenttweaker:steelhull>, <techreborn:cable:6>], [<jaopca:item_stickquartzblack>, <thermalfoundation:material:354>, <jaopca:item_stickquartzblack>]]);
@@ -286,5 +284,3 @@ TableCrafting.addShaped(4, <extendedcrafting:material:32>, [
 // Ultimate singularity \\
 TableCrafting.remove(<extendedcrafting:singularity_ultimate>);
 TableCrafting.addShapeless(4, <extendedcrafting:singularity_ultimate>, [<appliedenergistics2:material:47>, <extendedcrafting:singularity>, <extendedcrafting:singularity:1>, <extendedcrafting:singularity:2>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:4>, <extendedcrafting:singularity:5>, <extendedcrafting:singularity:6>, <extendedcrafting:singularity:7>, <extendedcrafting:singularity:16>, <extendedcrafting:singularity:17>, <extendedcrafting:singularity:18>, <extendedcrafting:singularity:20>, <extendedcrafting:singularity:22>, <extendedcrafting:singularity:23>, <extendedcrafting:singularity:25>, <extendedcrafting:singularity:30>, <extendedcrafting:singularity:31>, <extendedcrafting:singularity:32>, <extendedcrafting:singularity:33>, <extendedcrafting:singularity:34>, <extendedcrafting:singularity:35>, <extendedcrafting:material:40>]); 
-
-print("Extended Recipes.zs is loaded.");

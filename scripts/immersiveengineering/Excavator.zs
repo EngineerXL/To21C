@@ -3,9 +3,7 @@
 // ** Excavator ** \\
 
 import mods.immersiveengineering.Excavator;
-import mods.immersiveengineering.MineralMix;
-
-print("Excavator.zs starts to load.");
+import mods.immersiveengineering.MineralMix; 
 
 Excavator.removeMineral("Bauxite");
 Excavator.removeMineral("Cassiterite");
@@ -196,6 +194,4 @@ Excavator.getMineral("Uranium").addOre("oreUranium", 0.100);
 // Venus Osmium \\
 Excavator.addMineral("Venus Osmium", 30, 0.005, ["contenttweaker:venusosmium", "contenttweaker:venusiridium"], [0.005, 0.01], [-31]);
 Excavator.getMineral("Venus Osmium").addOre("oreOsmium", 0.065);
-Excavator.getMineral("Venus Osmium").addOre("oreIridium", 0.035);
-
-print("Excavator.zs is loaded.");
+Excavator.getMineral("Venus Osmium").addOre("oreIridium", 0.035); 

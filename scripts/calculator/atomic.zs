@@ -2,9 +2,7 @@
 
 // ** Atomic Calculator ** \\
 
-import mods.calculator.atomic;
-
-print("Atomic Calculator.zs starts to load.");
+import mods.calculator.atomic; 
 
 // Fire diamond \\
 atomic.removeRecipe(<calculator:firediamond>);
@@ -16,5 +14,3 @@ atomic.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <calculator:atomi
 
 // Pear sappling \\
 atomic.removeRecipe(<calculator:pearsapling>);
-
-print("Atomic Calculator.zs is loaded.");

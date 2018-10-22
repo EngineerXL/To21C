@@ -2,8 +2,6 @@
 
 // ** Calculator ** \\
 
-print("Calculator.zs starts to load.");
-
 // Algorithm separator \\
 recipes.remove(<calculator:algorithmseparator>);
 recipes.addShaped(<calculator:algorithmseparator>, [[<techreborn:part:30>, <calculator:weakeneddiamond>, <techreborn:part:30>], [<calculator:stoneseparator>, <techreborn:machine_frame:1>, <calculator:stoneseparator>], [<techreborn:part:30>, <calculator:weakeneddiamond>, <techreborn:part:30>]]);
@@ -38,6 +36,4 @@ recipes.addShaped(<calculator:reinforcedhoe>.withTag({ench: [{lvl: 1 as short, i
 
 // Stone separator \\
 recipes.remove(<calculator:stoneseparator>);
-recipes.addShaped(<calculator:stoneseparator>, [[<techreborn:part:29>, <calculator:material:3>, <techreborn:part:29>], [<calculator:powercube>, <techreborn:machine_frame>, <calculator:powercube>], [<techreborn:part:29>, <calculator:material:3>, <techreborn:part:29>]]);
-
-print("Calculator.zs is loaded.");
+recipes.addShaped(<calculator:stoneseparator>, [[<techreborn:part:29>, <calculator:material:3>, <techreborn:part:29>], [<calculator:powercube>, <techreborn:machine_frame>, <calculator:powercube>], [<techreborn:part:29>, <calculator:material:3>, <techreborn:part:29>]]); 

@@ -2,8 +2,6 @@
 
 // ** Gendustry ** \\
 
-print("Gendustry.zs starts to load.");
-
 // Itegrated casing \\
 recipes.remove(<genetics:misc:10>);
 
@@ -15,5 +13,3 @@ recipes.remove(<genetics:misc:9>);
 
 // Reinforced casing \\
 recipes.remove(<genetics:misc>);
-
-print("Gendustry.zs is loaded.");
